@@ -22,7 +22,7 @@ img.innermwp {
 }
 .outermwp:hover .innermwp {
   transition: ease-in-out 2.5s;
-  transform: rotate(3650deg) rotateX(0deg) rotateY(0deg);
+  transform: rotate(1800deg) rotateX(0deg) rotateY(0deg);
 }
 </style>
 <a class="outermwp" href="mailto:jective@jective.net"><img class="innermwp" src="/favicon.ico" /></a>
