@@ -21,5 +21,5 @@ title: null
   transform: rotate(3650deg) rotateX(0deg) rotateY(0deg);
 }
 </style>
-<a class="outermwp" href="mailto:jective@jective.net"><img class="innermwp" style="width: 10%" src="/favicon.ico" /></a>
+<a class="outermwp" href="mailto:jective@jective.net"><img class="innermwp" src="/favicon.ico" /></a>
 
