@@ -1,6 +1,5 @@
 ---
-layout: default
-name: XXX
+name: Jective
 title: null
 ---
 <style>
@@ -9,8 +8,13 @@ title: null
   top: 50%;
   left: 50%;
   margin-right: -50%;
+  transform: translate(-50%, -50%);
   display: inline-block;
   background: transparent;
+}
+img.innermwp {
+  max-width: 25vw;
+  max-height: 25vh;
 }
 .innermwp {
   transition: transform 0.6s;
