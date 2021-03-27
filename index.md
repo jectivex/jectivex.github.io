@@ -6,7 +6,7 @@ title: null
 body {
     height: 100vh;
     margin: 0;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(115,115,115,1) 100%);
+    background-disabled: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(115,115,115,1) 100%);
 }
 
 .outerlync {
@@ -34,4 +34,4 @@ img.innerlync {
   transform: rotate(1800deg) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
 </style>
-<a class="outerlync" href="mailto:jective@jective.net"><img class="innerlync" src="/favicon.ico" /></a>
+<a class="outerlync" href="mailto:jective@jective.net"><img class="innerlync" src="https://www.jective.net/favicon.ico" /></a>
