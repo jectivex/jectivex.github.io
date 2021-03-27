@@ -3,7 +3,13 @@ name: Jective
 title: null
 ---
 <style>
-.outermwp {
+body {
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(115,115,115,1) 100%);
+}
+
+.outerlync {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12,18 +18,20 @@ title: null
   display: inline-block;
   background: transparent;
 }
-img.innermwp {
-  max-width: 25vw;
-  max-height: 25vh;
+
+img.innerlync {
+  max-width: 15vw;
+  max-height: 15vh;
 }
-.innermwp {
-  transition: transform 0.6s;
+
+.innerlync {
   transform-style: preserve-3d;
+  transition: ease-out 0.6s;
 }
-.outermwp:hover .innermwp {
+
+.outerlync:hover .innerlync {
   transition: ease-in-out 2.5s;
-  transform: rotate(1800deg) rotateX(0deg) rotateY(0deg);
+  transform: rotate(1800deg) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
 </style>
-<a class="outermwp" href="mailto:jective@jective.net"><img class="innermwp" src="/favicon.ico" /></a>
-
+<a class="outerlync" href="mailto:jective@jective.net"><img class="innerlync" src="/favicon.ico" /></a>
