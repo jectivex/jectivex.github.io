@@ -54,7 +54,9 @@
 
                   </div>
                 </div>
-              <p>A JavaScript virtual machine.</p>
+              <p>A JavaScript virtual machine that is used by a <code>JXContextGroup</code> instance.</p>
+
+<p><code><a href="../Classes/JXValue.html">JXValue</a></code> references may be used interchangably with separate <code><a href="../Classes/JXContext.html">JXContext</a></code>  instances that created from the same <code>JXContextGroup</code>, but sharing between  different <code>JXContextGroup</code>s will result in undefined behavior.</p>
 <div class="aside aside-note">
     <p class="aside-title">Note</p>
     This wraps a <code>JSContextGroupRef</code>, and is the equivalent of <code>JavaScriptCore.JSVirtualMachine</code>
@@ -236,7 +238,7 @@
               <a href="../Typealiases.html">Type Aliases</a>
               <ul class="nav-group-tasks">
                 <li class="nav-group-task">
-                  <a href="../Typealiases.html#/s:5JXKit30JXObjectCallAsFunctionCallbacka">JXObjectCallAsFunctionCallback</a>
+                  <a href="../Typealiases.html#/s:5JXKit10JXFunctiona">JXFunction</a>
                 </li>
               </ul>
             </li>

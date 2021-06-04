@@ -58,161 +58,147 @@
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 30,
+      "line": 32,
       "symbol": "JXContext.group",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 33,
+      "line": 35,
       "symbol": "JXContext.exceptionHandler",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 35,
-      "symbol": "JXContext.init(group:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 56,
+      "line": 59,
       "symbol": "JXContext.eval(this:url:script:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 112,
+      "line": 115,
       "symbol": "JXValue.value",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 114,
+      "line": 117,
       "symbol": "JXValue.init(env:value:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 133,
+      "line": 138,
       "symbol": "JXContextGroup.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 137,
+      "line": 142,
       "symbol": "JXContextGroup.init(group:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 229,
+      "line": 234,
       "symbol": "JXContext.Errors",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 503,
+      "line": 508,
       "symbol": "JXValue.isFrozen",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 507,
+      "line": 512,
       "symbol": "JXValue.isExtensible",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 511,
+      "line": 516,
       "symbol": "JXValue.isSealed",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 515,
+      "line": 520,
       "symbol": "JXValue.freeze()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 519,
+      "line": 524,
       "symbol": "JXValue.preventExtensions()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 523,
+      "line": 528,
       "symbol": "JXValue.seal()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 856,
-      "symbol": "JXObjectCallAsFunctionCallback",
-      "symbol_kind": "source.lang.swift.decl.typealias",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 973,
+      "line": 995,
       "symbol": "JXProp.value",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 974,
+      "line": 996,
       "symbol": "JXProp.writable",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 977,
+      "line": 999,
       "symbol": "JXProp.getter",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 978,
+      "line": 1000,
       "symbol": "JXProp.setter",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 979,
+      "line": 1001,
       "symbol": "JXProp.configurable",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 980,
+      "line": 1002,
       "symbol": "JXProp.enumerable",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/opt/src/glimpse/GIO/JXKit/Sources/JXKit/JXCore.swift",
-      "line": 1102,
+      "line": 1124,
       "symbol": "JXValue.propertyDescriptor(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
