@@ -1,0 +1,5010 @@
+{
+  "warnings": [
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 47,
+      "symbol": "ESTree.Identifier.IdentifierNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 47,
+      "symbol": "ESTree.Identifier.IdentifierNodeType.Identifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 62,
+      "symbol": "ESTree.Literal.LiteralNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 62,
+      "symbol": "ESTree.Literal.LiteralNodeType.Literal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 79,
+      "symbol": "ESTree.RegExpLiteral.RegExpLiteralNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 79,
+      "symbol": "ESTree.RegExpLiteral.RegExpLiteralNodeType.RegExpLiteral",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 94,
+      "symbol": "ESTree.Program.ProgramNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 94,
+      "symbol": "ESTree.Program.ProgramNodeType.Program",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 96,
+      "symbol": "ESTree.Program.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 150,
+      "symbol": "ESTree.ExpressionStatement.ExpressionStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 150,
+      "symbol": "ESTree.ExpressionStatement.ExpressionStatementNodeType.ExpressionStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 166,
+      "symbol": "ESTree.Directive.DirectiveNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 166,
+      "symbol": "ESTree.Directive.DirectiveNodeType.Directive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 182,
+      "symbol": "ESTree.BlockStatement.BlockStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 182,
+      "symbol": "ESTree.BlockStatement.BlockStatementNodeType.BlockStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 204,
+      "symbol": "ESTree.EmptyStatement.EmptyStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 204,
+      "symbol": "ESTree.EmptyStatement.EmptyStatementNodeType.EmptyStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 218,
+      "symbol": "ESTree.DebuggerStatement.DebuggerStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 218,
+      "symbol": "ESTree.DebuggerStatement.DebuggerStatementNodeType.DebuggerStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 234,
+      "symbol": "ESTree.WithStatement.WithStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 234,
+      "symbol": "ESTree.WithStatement.WithStatementNodeType.WithStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 252,
+      "symbol": "ESTree.ReturnStatement.ReturnStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 252,
+      "symbol": "ESTree.ReturnStatement.ReturnStatementNodeType.ReturnStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 268,
+      "symbol": "ESTree.LabeledStatement.LabeledStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 268,
+      "symbol": "ESTree.LabeledStatement.LabeledStatementNodeType.LabeledStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 283,
+      "symbol": "ESTree.BreakStatement.BreakStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 283,
+      "symbol": "ESTree.BreakStatement.BreakStatementNodeType.BreakStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 298,
+      "symbol": "ESTree.ContinueStatement.ContinueStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 298,
+      "symbol": "ESTree.ContinueStatement.ContinueStatementNodeType.ContinueStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 318,
+      "symbol": "ESTree.IfStatement.IfStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 318,
+      "symbol": "ESTree.IfStatement.IfStatementNodeType.IfStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 334,
+      "symbol": "ESTree.SwitchStatement.SwitchStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 334,
+      "symbol": "ESTree.SwitchStatement.SwitchStatementNodeType.SwitchStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 350,
+      "symbol": "ESTree.SwitchCase.SwitchCaseNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 350,
+      "symbol": "ESTree.SwitchCase.SwitchCaseNodeType.SwitchCase",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 368,
+      "symbol": "ESTree.ThrowStatement.ThrowStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 368,
+      "symbol": "ESTree.ThrowStatement.ThrowStatementNodeType.ThrowStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 385,
+      "symbol": "ESTree.TryStatement.TryStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 385,
+      "symbol": "ESTree.TryStatement.TryStatementNodeType.TryStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 401,
+      "symbol": "ESTree.CatchClause.CatchClauseNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 401,
+      "symbol": "ESTree.CatchClause.CatchClauseNodeType.CatchClause",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 420,
+      "symbol": "ESTree.WhileStatement.WhileStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 420,
+      "symbol": "ESTree.WhileStatement.WhileStatementNodeType.WhileStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 436,
+      "symbol": "ESTree.DoWhileStatement.DoWhileStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 436,
+      "symbol": "ESTree.DoWhileStatement.DoWhileStatementNodeType.DoWhileStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 454,
+      "symbol": "ESTree.ForStatement.ForStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 454,
+      "symbol": "ESTree.ForStatement.ForStatementNodeType.ForStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 471,
+      "symbol": "ESTree.ForInStatement.ForInStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 471,
+      "symbol": "ESTree.ForInStatement.ForInStatementNodeType.ForInStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 492,
+      "symbol": "ESTree.FunctionDeclaration.FunctionDeclarationNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 492,
+      "symbol": "ESTree.FunctionDeclaration.FunctionDeclarationNodeType.FunctionDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 508,
+      "symbol": "ESTree.VariableDeclaration.VariableDeclarationNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 508,
+      "symbol": "ESTree.VariableDeclaration.VariableDeclarationNodeType.VariableDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 524,
+      "symbol": "ESTree.VariableDeclarator.VariableDeclaratorNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 524,
+      "symbol": "ESTree.VariableDeclarator.VariableDeclaratorNodeType.VariableDeclarator",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 559,
+      "symbol": "ESTree.ThisExpression.ThisExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 559,
+      "symbol": "ESTree.ThisExpression.ThisExpressionNodeType.ThisExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 574,
+      "symbol": "ESTree.ArrayExpression.ArrayExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 574,
+      "symbol": "ESTree.ArrayExpression.ArrayExpressionNodeType.ArrayExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 589,
+      "symbol": "ESTree.ObjectExpression.ObjectExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 589,
+      "symbol": "ESTree.ObjectExpression.ObjectExpressionNodeType.ObjectExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 606,
+      "symbol": "ESTree.Property.PropertyNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 606,
+      "symbol": "ESTree.Property.PropertyNodeType.Property",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 620,
+      "symbol": "ESTree.FunctionExpression.FunctionExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 620,
+      "symbol": "ESTree.FunctionExpression.FunctionExpressionNodeType.FunctionExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 645,
+      "symbol": "ESTree.UnaryExpression.UnaryExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 645,
+      "symbol": "ESTree.UnaryExpression.UnaryExpressionNodeType.UnaryExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 668,
+      "symbol": "ESTree.UpdateExpression.UpdateExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 668,
+      "symbol": "ESTree.UpdateExpression.UpdateExpressionNodeType.UpdateExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 699,
+      "symbol": "ESTree.BinaryExpression.BinaryExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 699,
+      "symbol": "ESTree.BinaryExpression.BinaryExpressionNodeType.BinaryExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 725,
+      "symbol": "ESTree.AssignmentExpression.AssignmentExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 725,
+      "symbol": "ESTree.AssignmentExpression.AssignmentExpressionNodeType.AssignmentExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 749,
+      "symbol": "ESTree.LogicalExpression.LogicalExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 749,
+      "symbol": "ESTree.LogicalExpression.LogicalExpressionNodeType.LogicalExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 767,
+      "symbol": "ESTree.MemberExpression.MemberExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 767,
+      "symbol": "ESTree.MemberExpression.MemberExpressionNodeType.MemberExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 784,
+      "symbol": "ESTree.ConditionalExpression.ConditionalExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 784,
+      "symbol": "ESTree.ConditionalExpression.ConditionalExpressionNodeType.ConditionalExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 801,
+      "symbol": "ESTree.CallExpression.CallExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 801,
+      "symbol": "ESTree.CallExpression.CallExpressionNodeType.CallExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 818,
+      "symbol": "ESTree.NewExpression.NewExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 818,
+      "symbol": "ESTree.NewExpression.NewExpressionNodeType.NewExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 834,
+      "symbol": "ESTree.SequenceExpression.SequenceExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/ESTree.swift",
+      "line": 834,
+      "symbol": "ESTree.SequenceExpression.SequenceExpressionNodeType.SequenceExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSwift.swift",
+      "line": 10,
+      "symbol": "JavaScriptParser.ctx",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSwift.swift",
+      "line": 11,
+      "symbol": "JavaScriptParser.esprimaVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSwift.swift",
+      "line": 19,
+      "symbol": "JavaScriptParser.init(ctx:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSwift.swift",
+      "line": 43,
+      "symbol": "JavaScriptParser.Errors",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSwift.swift",
+      "line": 44,
+      "symbol": "JavaScriptParser.Errors.valueNotObject",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSwift.swift",
+      "line": 45,
+      "symbol": "JavaScriptParser.Errors.valueNotFunction",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSwift.swift",
+      "line": 93,
+      "symbol": "JavaScriptParser.TokenizeOptions.init(range:loc:comment:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSwift.swift",
+      "line": 129,
+      "symbol": "JavaScriptParser.ParseOptions.init(range:loc:tolerant:tokens:comment:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2,
+      "symbol": "JSSyntaxNodeType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 9,
+      "symbol": "JSSyntaxNode.NodeType",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 56,
+      "symbol": "JSSyntax.Script.init(type:body:sourceType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 63,
+      "symbol": "JSSyntax.Script.ProgramNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 63,
+      "symbol": "JSSyntax.Script.ProgramNodeType.Program",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 64,
+      "symbol": "JSSyntax.Script.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 65,
+      "symbol": "JSSyntax.Script.sourceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 72,
+      "symbol": "JSSyntax.Module.init(type:body:sourceType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 79,
+      "symbol": "JSSyntax.Module.ProgramNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 79,
+      "symbol": "JSSyntax.Module.ProgramNodeType.Program",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 80,
+      "symbol": "JSSyntax.Module.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 81,
+      "symbol": "JSSyntax.Module.sourceType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 89,
+      "symbol": "JSSyntax.ArrayExpression.init(type:elements:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 95,
+      "symbol": "JSSyntax.ArrayExpression.ArrayExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 95,
+      "symbol": "JSSyntax.ArrayExpression.ArrayExpressionNodeType.ArrayExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 96,
+      "symbol": "JSSyntax.ArrayExpression.elements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 103,
+      "symbol": "JSSyntax.ArrayPattern.init(type:elements:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 109,
+      "symbol": "JSSyntax.ArrayPattern.ArrayPatternNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 109,
+      "symbol": "JSSyntax.ArrayPattern.ArrayPatternNodeType.ArrayPattern",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 110,
+      "symbol": "JSSyntax.ArrayPattern.elements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 117,
+      "symbol": "JSSyntax.ArrowFunctionExpression.init(type:id:params:body:generator:expression:async:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 128,
+      "symbol": "JSSyntax.ArrowFunctionExpression.ArrowFunctionExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 128,
+      "symbol": "JSSyntax.ArrowFunctionExpression.ArrowFunctionExpressionNodeType.ArrowFunctionExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 129,
+      "symbol": "JSSyntax.ArrowFunctionExpression.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 130,
+      "symbol": "JSSyntax.ArrowFunctionExpression.params",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 131,
+      "symbol": "JSSyntax.ArrowFunctionExpression.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 132,
+      "symbol": "JSSyntax.ArrowFunctionExpression.generator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 133,
+      "symbol": "JSSyntax.ArrowFunctionExpression.expression",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 134,
+      "symbol": "JSSyntax.ArrowFunctionExpression.async",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 141,
+      "symbol": "JSSyntax.AssignmentExpression.init(type:operator:left:right:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 149,
+      "symbol": "JSSyntax.AssignmentExpression.AssignmentExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 149,
+      "symbol": "JSSyntax.AssignmentExpression.AssignmentExpressionNodeType.AssignmentExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 150,
+      "symbol": "JSSyntax.AssignmentExpression.operator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 151,
+      "symbol": "JSSyntax.AssignmentExpression.left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 152,
+      "symbol": "JSSyntax.AssignmentExpression.right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 159,
+      "symbol": "JSSyntax.AssignmentPattern.init(type:left:right:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 166,
+      "symbol": "JSSyntax.AssignmentPattern.AssignmentPatternNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 166,
+      "symbol": "JSSyntax.AssignmentPattern.AssignmentPatternNodeType.AssignmentPattern",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 167,
+      "symbol": "JSSyntax.AssignmentPattern.left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 168,
+      "symbol": "JSSyntax.AssignmentPattern.right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 175,
+      "symbol": "JSSyntax.AsyncArrowFunctionExpression.init(type:id:params:body:generator:expression:async:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 186,
+      "symbol": "JSSyntax.AsyncArrowFunctionExpression.AsyncArrowFunctionExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 186,
+      "symbol": "JSSyntax.AsyncArrowFunctionExpression.AsyncArrowFunctionExpressionNodeType.AsyncArrowFunctionExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 187,
+      "symbol": "JSSyntax.AsyncArrowFunctionExpression.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 188,
+      "symbol": "JSSyntax.AsyncArrowFunctionExpression.params",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 189,
+      "symbol": "JSSyntax.AsyncArrowFunctionExpression.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 190,
+      "symbol": "JSSyntax.AsyncArrowFunctionExpression.generator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 191,
+      "symbol": "JSSyntax.AsyncArrowFunctionExpression.expression",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 192,
+      "symbol": "JSSyntax.AsyncArrowFunctionExpression.async",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 199,
+      "symbol": "JSSyntax.AsyncFunctionDeclaration.init(type:id:params:body:generator:expression:async:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 210,
+      "symbol": "JSSyntax.AsyncFunctionDeclaration.AsyncFunctionDeclarationNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 210,
+      "symbol": "JSSyntax.AsyncFunctionDeclaration.AsyncFunctionDeclarationNodeType.AsyncFunctionDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 211,
+      "symbol": "JSSyntax.AsyncFunctionDeclaration.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 212,
+      "symbol": "JSSyntax.AsyncFunctionDeclaration.params",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 213,
+      "symbol": "JSSyntax.AsyncFunctionDeclaration.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 214,
+      "symbol": "JSSyntax.AsyncFunctionDeclaration.generator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 215,
+      "symbol": "JSSyntax.AsyncFunctionDeclaration.expression",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 216,
+      "symbol": "JSSyntax.AsyncFunctionDeclaration.async",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 223,
+      "symbol": "JSSyntax.AsyncFunctionExpression.init(type:id:params:body:generator:expression:async:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 234,
+      "symbol": "JSSyntax.AsyncFunctionExpression.AsyncFunctionExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 234,
+      "symbol": "JSSyntax.AsyncFunctionExpression.AsyncFunctionExpressionNodeType.AsyncFunctionExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 235,
+      "symbol": "JSSyntax.AsyncFunctionExpression.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 236,
+      "symbol": "JSSyntax.AsyncFunctionExpression.params",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 237,
+      "symbol": "JSSyntax.AsyncFunctionExpression.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 238,
+      "symbol": "JSSyntax.AsyncFunctionExpression.generator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 239,
+      "symbol": "JSSyntax.AsyncFunctionExpression.expression",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 240,
+      "symbol": "JSSyntax.AsyncFunctionExpression.async",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 247,
+      "symbol": "JSSyntax.AwaitExpression.init(type:argument:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 253,
+      "symbol": "JSSyntax.AwaitExpression.AwaitExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 253,
+      "symbol": "JSSyntax.AwaitExpression.AwaitExpressionNodeType.AwaitExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 254,
+      "symbol": "JSSyntax.AwaitExpression.argument",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 261,
+      "symbol": "JSSyntax.BinaryExpression.init(type:operator:left:right:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 269,
+      "symbol": "JSSyntax.BinaryExpression.BinaryExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 269,
+      "symbol": "JSSyntax.BinaryExpression.BinaryExpressionNodeType.BinaryExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 270,
+      "symbol": "JSSyntax.BinaryExpression.operator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 271,
+      "symbol": "JSSyntax.BinaryExpression.left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 272,
+      "symbol": "JSSyntax.BinaryExpression.right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 279,
+      "symbol": "JSSyntax.LogicalExpression.init(type:operator:left:right:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 287,
+      "symbol": "JSSyntax.LogicalExpression.LogicalExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 287,
+      "symbol": "JSSyntax.LogicalExpression.LogicalExpressionNodeType.LogicalExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 288,
+      "symbol": "JSSyntax.LogicalExpression.operator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 289,
+      "symbol": "JSSyntax.LogicalExpression.left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 290,
+      "symbol": "JSSyntax.LogicalExpression.right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 297,
+      "symbol": "JSSyntax.BlockStatement.init(type:body:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 303,
+      "symbol": "JSSyntax.BlockStatement.BlockStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 303,
+      "symbol": "JSSyntax.BlockStatement.BlockStatementNodeType.BlockStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 304,
+      "symbol": "JSSyntax.BlockStatement.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 311,
+      "symbol": "JSSyntax.BreakStatement.init(type:label:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 317,
+      "symbol": "JSSyntax.BreakStatement.BreakStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 317,
+      "symbol": "JSSyntax.BreakStatement.BreakStatementNodeType.BreakStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 318,
+      "symbol": "JSSyntax.BreakStatement.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 325,
+      "symbol": "JSSyntax.CallExpression.init(type:callee:arguments:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 332,
+      "symbol": "JSSyntax.CallExpression.CallExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 332,
+      "symbol": "JSSyntax.CallExpression.CallExpressionNodeType.CallExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 333,
+      "symbol": "JSSyntax.CallExpression.callee",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 334,
+      "symbol": "JSSyntax.CallExpression.arguments",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 341,
+      "symbol": "JSSyntax.CatchClause.init(type:param:body:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 348,
+      "symbol": "JSSyntax.CatchClause.CatchClauseNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 348,
+      "symbol": "JSSyntax.CatchClause.CatchClauseNodeType.CatchClause",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 349,
+      "symbol": "JSSyntax.CatchClause.param",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 350,
+      "symbol": "JSSyntax.CatchClause.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 357,
+      "symbol": "JSSyntax.ChainExpression.init(type:expression:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 363,
+      "symbol": "JSSyntax.ChainExpression.ChainExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 363,
+      "symbol": "JSSyntax.ChainExpression.ChainExpressionNodeType.ChainExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 364,
+      "symbol": "JSSyntax.ChainExpression.expression",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 371,
+      "symbol": "JSSyntax.ClassBody.init(type:body:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 377,
+      "symbol": "JSSyntax.ClassBody.ClassBodyNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 377,
+      "symbol": "JSSyntax.ClassBody.ClassBodyNodeType.ClassBody",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 378,
+      "symbol": "JSSyntax.ClassBody.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 385,
+      "symbol": "JSSyntax.ClassDeclaration.init(type:id:superClass:body:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 393,
+      "symbol": "JSSyntax.ClassDeclaration.ClassDeclarationNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 393,
+      "symbol": "JSSyntax.ClassDeclaration.ClassDeclarationNodeType.ClassDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 394,
+      "symbol": "JSSyntax.ClassDeclaration.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 395,
+      "symbol": "JSSyntax.ClassDeclaration.superClass",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 396,
+      "symbol": "JSSyntax.ClassDeclaration.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 403,
+      "symbol": "JSSyntax.ClassExpression.init(type:id:superClass:body:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 411,
+      "symbol": "JSSyntax.ClassExpression.ClassExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 411,
+      "symbol": "JSSyntax.ClassExpression.ClassExpressionNodeType.ClassExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 412,
+      "symbol": "JSSyntax.ClassExpression.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 413,
+      "symbol": "JSSyntax.ClassExpression.superClass",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 414,
+      "symbol": "JSSyntax.ClassExpression.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 421,
+      "symbol": "JSSyntax.ComputedMemberExpression.init(type:computed:object:property:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 429,
+      "symbol": "JSSyntax.ComputedMemberExpression.ComputedMemberExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 429,
+      "symbol": "JSSyntax.ComputedMemberExpression.ComputedMemberExpressionNodeType.ComputedMemberExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 430,
+      "symbol": "JSSyntax.ComputedMemberExpression.computed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 431,
+      "symbol": "JSSyntax.ComputedMemberExpression.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 432,
+      "symbol": "JSSyntax.ComputedMemberExpression.property",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 439,
+      "symbol": "JSSyntax.ConditionalExpression.init(type:test:consequent:alternate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 447,
+      "symbol": "JSSyntax.ConditionalExpression.ConditionalExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 447,
+      "symbol": "JSSyntax.ConditionalExpression.ConditionalExpressionNodeType.ConditionalExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 448,
+      "symbol": "JSSyntax.ConditionalExpression.test",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 449,
+      "symbol": "JSSyntax.ConditionalExpression.consequent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 450,
+      "symbol": "JSSyntax.ConditionalExpression.alternate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 457,
+      "symbol": "JSSyntax.ContinueStatement.init(type:label:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 463,
+      "symbol": "JSSyntax.ContinueStatement.ContinueStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 463,
+      "symbol": "JSSyntax.ContinueStatement.ContinueStatementNodeType.ContinueStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 464,
+      "symbol": "JSSyntax.ContinueStatement.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 471,
+      "symbol": "JSSyntax.DebuggerStatement.init(type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 476,
+      "symbol": "JSSyntax.DebuggerStatement.DebuggerStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 476,
+      "symbol": "JSSyntax.DebuggerStatement.DebuggerStatementNodeType.DebuggerStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 483,
+      "symbol": "JSSyntax.Directive.init(type:expression:directive:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 490,
+      "symbol": "JSSyntax.Directive.DirectiveNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 490,
+      "symbol": "JSSyntax.Directive.DirectiveNodeType.Directive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 491,
+      "symbol": "JSSyntax.Directive.expression",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 492,
+      "symbol": "JSSyntax.Directive.directive",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 499,
+      "symbol": "JSSyntax.DoWhileStatement.init(type:body:test:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 506,
+      "symbol": "JSSyntax.DoWhileStatement.DoWhileStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 506,
+      "symbol": "JSSyntax.DoWhileStatement.DoWhileStatementNodeType.DoWhileStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 507,
+      "symbol": "JSSyntax.DoWhileStatement.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 508,
+      "symbol": "JSSyntax.DoWhileStatement.test",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 515,
+      "symbol": "JSSyntax.EmptyStatement.init(type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 520,
+      "symbol": "JSSyntax.EmptyStatement.EmptyStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 520,
+      "symbol": "JSSyntax.EmptyStatement.EmptyStatementNodeType.EmptyStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 527,
+      "symbol": "JSSyntax.ExportAllDeclaration.init(type:source:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 533,
+      "symbol": "JSSyntax.ExportAllDeclaration.ExportAllDeclarationNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 533,
+      "symbol": "JSSyntax.ExportAllDeclaration.ExportAllDeclarationNodeType.ExportAllDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 534,
+      "symbol": "JSSyntax.ExportAllDeclaration.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 541,
+      "symbol": "JSSyntax.ExportDefaultDeclaration.init(type:declaration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 547,
+      "symbol": "JSSyntax.ExportDefaultDeclaration.ExportDefaultDeclarationNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 547,
+      "symbol": "JSSyntax.ExportDefaultDeclaration.ExportDefaultDeclarationNodeType.ExportDefaultDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 548,
+      "symbol": "JSSyntax.ExportDefaultDeclaration.declaration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 555,
+      "symbol": "JSSyntax.ExportNamedDeclaration.init(type:declaration:specifiers:source:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 563,
+      "symbol": "JSSyntax.ExportNamedDeclaration.ExportNamedDeclarationNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 563,
+      "symbol": "JSSyntax.ExportNamedDeclaration.ExportNamedDeclarationNodeType.ExportNamedDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 564,
+      "symbol": "JSSyntax.ExportNamedDeclaration.declaration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 565,
+      "symbol": "JSSyntax.ExportNamedDeclaration.specifiers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 566,
+      "symbol": "JSSyntax.ExportNamedDeclaration.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 573,
+      "symbol": "JSSyntax.ExportSpecifier.init(type:exported:local:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 580,
+      "symbol": "JSSyntax.ExportSpecifier.ExportSpecifierNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 580,
+      "symbol": "JSSyntax.ExportSpecifier.ExportSpecifierNodeType.ExportSpecifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 581,
+      "symbol": "JSSyntax.ExportSpecifier.exported",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 582,
+      "symbol": "JSSyntax.ExportSpecifier.local",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 589,
+      "symbol": "JSSyntax.ExpressionStatement.init(type:expression:directive:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 596,
+      "symbol": "JSSyntax.ExpressionStatement.ExpressionStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 596,
+      "symbol": "JSSyntax.ExpressionStatement.ExpressionStatementNodeType.ExpressionStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 597,
+      "symbol": "JSSyntax.ExpressionStatement.expression",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 598,
+      "symbol": "JSSyntax.ExpressionStatement.directive",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 605,
+      "symbol": "JSSyntax.ForInStatement.init(type:left:right:body:each:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 614,
+      "symbol": "JSSyntax.ForInStatement.ForInStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 614,
+      "symbol": "JSSyntax.ForInStatement.ForInStatementNodeType.ForInStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 615,
+      "symbol": "JSSyntax.ForInStatement.left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 616,
+      "symbol": "JSSyntax.ForInStatement.right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 617,
+      "symbol": "JSSyntax.ForInStatement.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 618,
+      "symbol": "JSSyntax.ForInStatement.each",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 625,
+      "symbol": "JSSyntax.ForOfStatement.init(type:left:right:body:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 633,
+      "symbol": "JSSyntax.ForOfStatement.ForOfStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 633,
+      "symbol": "JSSyntax.ForOfStatement.ForOfStatementNodeType.ForOfStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 634,
+      "symbol": "JSSyntax.ForOfStatement.left",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 635,
+      "symbol": "JSSyntax.ForOfStatement.right",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 636,
+      "symbol": "JSSyntax.ForOfStatement.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 643,
+      "symbol": "JSSyntax.ForStatement.init(type:init:test:update:body:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 652,
+      "symbol": "JSSyntax.ForStatement.ForStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 652,
+      "symbol": "JSSyntax.ForStatement.ForStatementNodeType.ForStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 653,
+      "symbol": "JSSyntax.ForStatement.init",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 654,
+      "symbol": "JSSyntax.ForStatement.test",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 655,
+      "symbol": "JSSyntax.ForStatement.update",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 656,
+      "symbol": "JSSyntax.ForStatement.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 663,
+      "symbol": "JSSyntax.FunctionDeclaration.init(type:id:params:body:generator:expression:async:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 674,
+      "symbol": "JSSyntax.FunctionDeclaration.FunctionDeclarationNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 674,
+      "symbol": "JSSyntax.FunctionDeclaration.FunctionDeclarationNodeType.FunctionDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 675,
+      "symbol": "JSSyntax.FunctionDeclaration.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 676,
+      "symbol": "JSSyntax.FunctionDeclaration.params",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 677,
+      "symbol": "JSSyntax.FunctionDeclaration.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 678,
+      "symbol": "JSSyntax.FunctionDeclaration.generator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 679,
+      "symbol": "JSSyntax.FunctionDeclaration.expression",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 680,
+      "symbol": "JSSyntax.FunctionDeclaration.async",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 687,
+      "symbol": "JSSyntax.FunctionExpression.init(type:id:params:body:generator:expression:async:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 698,
+      "symbol": "JSSyntax.FunctionExpression.FunctionExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 698,
+      "symbol": "JSSyntax.FunctionExpression.FunctionExpressionNodeType.FunctionExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 699,
+      "symbol": "JSSyntax.FunctionExpression.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 700,
+      "symbol": "JSSyntax.FunctionExpression.params",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 701,
+      "symbol": "JSSyntax.FunctionExpression.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 702,
+      "symbol": "JSSyntax.FunctionExpression.generator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 703,
+      "symbol": "JSSyntax.FunctionExpression.expression",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 704,
+      "symbol": "JSSyntax.FunctionExpression.async",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 711,
+      "symbol": "JSSyntax.Identifier.init(type:name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 717,
+      "symbol": "JSSyntax.Identifier.IdentifierNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 717,
+      "symbol": "JSSyntax.Identifier.IdentifierNodeType.Identifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 718,
+      "symbol": "JSSyntax.Identifier.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 725,
+      "symbol": "JSSyntax.IfStatement.init(type:test:consequent:alternate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 733,
+      "symbol": "JSSyntax.IfStatement.IfStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 733,
+      "symbol": "JSSyntax.IfStatement.IfStatementNodeType.IfStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 734,
+      "symbol": "JSSyntax.IfStatement.test",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 735,
+      "symbol": "JSSyntax.IfStatement.consequent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 736,
+      "symbol": "JSSyntax.IfStatement.alternate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 743,
+      "symbol": "JSSyntax.Import.init(type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 748,
+      "symbol": "JSSyntax.Import.ImportNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 748,
+      "symbol": "JSSyntax.Import.ImportNodeType.Import",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 755,
+      "symbol": "JSSyntax.ImportDeclaration.init(type:specifiers:source:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 762,
+      "symbol": "JSSyntax.ImportDeclaration.ImportDeclarationNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 762,
+      "symbol": "JSSyntax.ImportDeclaration.ImportDeclarationNodeType.ImportDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 763,
+      "symbol": "JSSyntax.ImportDeclaration.specifiers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 764,
+      "symbol": "JSSyntax.ImportDeclaration.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 771,
+      "symbol": "JSSyntax.ImportDefaultSpecifier.init(type:local:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 777,
+      "symbol": "JSSyntax.ImportDefaultSpecifier.ImportDefaultSpecifierNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 777,
+      "symbol": "JSSyntax.ImportDefaultSpecifier.ImportDefaultSpecifierNodeType.ImportDefaultSpecifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 778,
+      "symbol": "JSSyntax.ImportDefaultSpecifier.local",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 785,
+      "symbol": "JSSyntax.ImportNamespaceSpecifier.init(type:local:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 791,
+      "symbol": "JSSyntax.ImportNamespaceSpecifier.ImportNamespaceSpecifierNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 791,
+      "symbol": "JSSyntax.ImportNamespaceSpecifier.ImportNamespaceSpecifierNodeType.ImportNamespaceSpecifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 792,
+      "symbol": "JSSyntax.ImportNamespaceSpecifier.local",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 799,
+      "symbol": "JSSyntax.ImportSpecifier.init(type:local:imported:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 806,
+      "symbol": "JSSyntax.ImportSpecifier.ImportSpecifierNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 806,
+      "symbol": "JSSyntax.ImportSpecifier.ImportSpecifierNodeType.ImportSpecifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 807,
+      "symbol": "JSSyntax.ImportSpecifier.local",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 808,
+      "symbol": "JSSyntax.ImportSpecifier.imported",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 815,
+      "symbol": "JSSyntax.LabeledStatement.init(type:label:body:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 822,
+      "symbol": "JSSyntax.LabeledStatement.LabeledStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 822,
+      "symbol": "JSSyntax.LabeledStatement.LabeledStatementNodeType.LabeledStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 823,
+      "symbol": "JSSyntax.LabeledStatement.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 824,
+      "symbol": "JSSyntax.LabeledStatement.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 831,
+      "symbol": "JSSyntax.Literal.init(type:value:raw:regex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 839,
+      "symbol": "JSSyntax.Literal.LiteralNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 839,
+      "symbol": "JSSyntax.Literal.LiteralNodeType.Literal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 840,
+      "symbol": "JSSyntax.Literal.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 841,
+      "symbol": "JSSyntax.Literal.raw",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 842,
+      "symbol": "JSSyntax.Literal.regex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 848,
+      "symbol": "JSSyntax.Literal.RegExp.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 854,
+      "symbol": "JSSyntax.MemberExpression.init(type:computed:object:property:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 862,
+      "symbol": "JSSyntax.MemberExpression.MemberExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 862,
+      "symbol": "JSSyntax.MemberExpression.MemberExpressionNodeType.MemberExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 863,
+      "symbol": "JSSyntax.MemberExpression.computed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 864,
+      "symbol": "JSSyntax.MemberExpression.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 865,
+      "symbol": "JSSyntax.MemberExpression.property",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 873,
+      "symbol": "JSSyntax.MetaProperty.init(type:meta:property:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 880,
+      "symbol": "JSSyntax.MetaProperty.MetaPropertyNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 880,
+      "symbol": "JSSyntax.MetaProperty.MetaPropertyNodeType.MetaProperty",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 881,
+      "symbol": "JSSyntax.MetaProperty.meta",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 882,
+      "symbol": "JSSyntax.MetaProperty.property",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 889,
+      "symbol": "JSSyntax.MethodDefinition.init(type:key:computed:value:kind:static:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 899,
+      "symbol": "JSSyntax.MethodDefinition.MethodDefinitionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 899,
+      "symbol": "JSSyntax.MethodDefinition.MethodDefinitionNodeType.MethodDefinition",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 900,
+      "symbol": "JSSyntax.MethodDefinition.key",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 901,
+      "symbol": "JSSyntax.MethodDefinition.computed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 902,
+      "symbol": "JSSyntax.MethodDefinition.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 903,
+      "symbol": "JSSyntax.MethodDefinition.kind",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 904,
+      "symbol": "JSSyntax.MethodDefinition.MethodDefinitionKind",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 904,
+      "symbol": "JSSyntax.MethodDefinition.MethodDefinitionKind.constructor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 904,
+      "symbol": "JSSyntax.MethodDefinition.MethodDefinitionKind.method",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 905,
+      "symbol": "JSSyntax.MethodDefinition.static",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 912,
+      "symbol": "JSSyntax.NewExpression.init(type:callee:arguments:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 919,
+      "symbol": "JSSyntax.NewExpression.NewExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 919,
+      "symbol": "JSSyntax.NewExpression.NewExpressionNodeType.NewExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 920,
+      "symbol": "JSSyntax.NewExpression.callee",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 921,
+      "symbol": "JSSyntax.NewExpression.arguments",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 928,
+      "symbol": "JSSyntax.ObjectExpression.init(type:properties:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 934,
+      "symbol": "JSSyntax.ObjectExpression.ObjectExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 934,
+      "symbol": "JSSyntax.ObjectExpression.ObjectExpressionNodeType.ObjectExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 935,
+      "symbol": "JSSyntax.ObjectExpression.properties",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 942,
+      "symbol": "JSSyntax.ObjectPattern.init(type:properties:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 948,
+      "symbol": "JSSyntax.ObjectPattern.ObjectPatternNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 948,
+      "symbol": "JSSyntax.ObjectPattern.ObjectPatternNodeType.ObjectPattern",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 949,
+      "symbol": "JSSyntax.ObjectPattern.properties",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 956,
+      "symbol": "JSSyntax.Property.init(type:key:computed:value:kind:method:shorthand:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 967,
+      "symbol": "JSSyntax.Property.PropertyNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 967,
+      "symbol": "JSSyntax.Property.PropertyNodeType.Property",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 968,
+      "symbol": "JSSyntax.Property.key",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 969,
+      "symbol": "JSSyntax.Property.computed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 970,
+      "symbol": "JSSyntax.Property.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 971,
+      "symbol": "JSSyntax.Property.kind",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 972,
+      "symbol": "JSSyntax.Property.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 973,
+      "symbol": "JSSyntax.Property.shorthand",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 980,
+      "symbol": "JSSyntax.RegexLiteral.init(type:value:raw:regex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 988,
+      "symbol": "JSSyntax.RegexLiteral.RegexLiteralNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 988,
+      "symbol": "JSSyntax.RegexLiteral.RegexLiteralNodeType.RegexLiteral",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 989,
+      "symbol": "JSSyntax.RegexLiteral.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 990,
+      "symbol": "JSSyntax.RegexLiteral.raw",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 991,
+      "symbol": "JSSyntax.RegexLiteral.regex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 998,
+      "symbol": "JSSyntax.RestElement.init(type:argument:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1004,
+      "symbol": "JSSyntax.RestElement.RestElementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1004,
+      "symbol": "JSSyntax.RestElement.RestElementNodeType.RestElement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1005,
+      "symbol": "JSSyntax.RestElement.argument",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1012,
+      "symbol": "JSSyntax.ReturnStatement.init(type:argument:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1018,
+      "symbol": "JSSyntax.ReturnStatement.ReturnStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1018,
+      "symbol": "JSSyntax.ReturnStatement.ReturnStatementNodeType.ReturnStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1019,
+      "symbol": "JSSyntax.ReturnStatement.argument",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1026,
+      "symbol": "JSSyntax.SequenceExpression.init(type:expressions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1032,
+      "symbol": "JSSyntax.SequenceExpression.SequenceExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1032,
+      "symbol": "JSSyntax.SequenceExpression.SequenceExpressionNodeType.SequenceExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1033,
+      "symbol": "JSSyntax.SequenceExpression.expressions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1040,
+      "symbol": "JSSyntax.SpreadElement.init(type:argument:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1046,
+      "symbol": "JSSyntax.SpreadElement.SpreadElementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1046,
+      "symbol": "JSSyntax.SpreadElement.SpreadElementNodeType.SpreadElement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1047,
+      "symbol": "JSSyntax.SpreadElement.argument",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1054,
+      "symbol": "JSSyntax.StaticMemberExpression.init(type:computed:object:property:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1062,
+      "symbol": "JSSyntax.StaticMemberExpression.StaticMemberExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1062,
+      "symbol": "JSSyntax.StaticMemberExpression.StaticMemberExpressionNodeType.StaticMemberExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1063,
+      "symbol": "JSSyntax.StaticMemberExpression.computed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1064,
+      "symbol": "JSSyntax.StaticMemberExpression.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1065,
+      "symbol": "JSSyntax.StaticMemberExpression.property",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1072,
+      "symbol": "JSSyntax.Super.init(type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1077,
+      "symbol": "JSSyntax.Super.SuperNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1077,
+      "symbol": "JSSyntax.Super.SuperNodeType.Super",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1084,
+      "symbol": "JSSyntax.SwitchCase.init(type:test:consequent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1091,
+      "symbol": "JSSyntax.SwitchCase.SwitchCaseNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1091,
+      "symbol": "JSSyntax.SwitchCase.SwitchCaseNodeType.SwitchCase",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1092,
+      "symbol": "JSSyntax.SwitchCase.test",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1093,
+      "symbol": "JSSyntax.SwitchCase.consequent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1100,
+      "symbol": "JSSyntax.SwitchStatement.init(type:discriminant:cases:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1107,
+      "symbol": "JSSyntax.SwitchStatement.SwitchStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1107,
+      "symbol": "JSSyntax.SwitchStatement.SwitchStatementNodeType.SwitchStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1108,
+      "symbol": "JSSyntax.SwitchStatement.discriminant",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1109,
+      "symbol": "JSSyntax.SwitchStatement.cases",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1116,
+      "symbol": "JSSyntax.TaggedTemplateExpression.init(type:tag:quasi:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1123,
+      "symbol": "JSSyntax.TaggedTemplateExpression.TaggedTemplateExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1123,
+      "symbol": "JSSyntax.TaggedTemplateExpression.TaggedTemplateExpressionNodeType.TaggedTemplateExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1124,
+      "symbol": "JSSyntax.TaggedTemplateExpression.tag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1125,
+      "symbol": "JSSyntax.TaggedTemplateExpression.quasi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1132,
+      "symbol": "JSSyntax.TemplateElementValue.cooked",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1133,
+      "symbol": "JSSyntax.TemplateElementValue.raw",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1138,
+      "symbol": "JSSyntax.TemplateElement.init(type:value:tail:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1145,
+      "symbol": "JSSyntax.TemplateElement.TemplateElementValueNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1145,
+      "symbol": "JSSyntax.TemplateElement.TemplateElementValueNodeType.TemplateElement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1146,
+      "symbol": "JSSyntax.TemplateElement.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1147,
+      "symbol": "JSSyntax.TemplateElement.tail",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1154,
+      "symbol": "JSSyntax.TemplateLiteral.init(type:quasis:expressions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1161,
+      "symbol": "JSSyntax.TemplateLiteral.TemplateLiteralNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1161,
+      "symbol": "JSSyntax.TemplateLiteral.TemplateLiteralNodeType.TemplateLiteral",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1162,
+      "symbol": "JSSyntax.TemplateLiteral.quasis",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1163,
+      "symbol": "JSSyntax.TemplateLiteral.expressions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1170,
+      "symbol": "JSSyntax.ThisExpression.init(type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1175,
+      "symbol": "JSSyntax.ThisExpression.ThisExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1175,
+      "symbol": "JSSyntax.ThisExpression.ThisExpressionNodeType.ThisExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1182,
+      "symbol": "JSSyntax.ThrowStatement.init(type:argument:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1188,
+      "symbol": "JSSyntax.ThrowStatement.ThrowStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1188,
+      "symbol": "JSSyntax.ThrowStatement.ThrowStatementNodeType.ThrowStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1189,
+      "symbol": "JSSyntax.ThrowStatement.argument",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1196,
+      "symbol": "JSSyntax.TryStatement.init(type:block:handler:finalizer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1204,
+      "symbol": "JSSyntax.TryStatement.TryStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1204,
+      "symbol": "JSSyntax.TryStatement.TryStatementNodeType.TryStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1205,
+      "symbol": "JSSyntax.TryStatement.block",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1206,
+      "symbol": "JSSyntax.TryStatement.handler",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1207,
+      "symbol": "JSSyntax.TryStatement.finalizer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1214,
+      "symbol": "JSSyntax.UnaryExpression.init(type:operator:argument:prefix:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1222,
+      "symbol": "JSSyntax.UnaryExpression.UnaryExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1222,
+      "symbol": "JSSyntax.UnaryExpression.UnaryExpressionNodeType.UnaryExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1223,
+      "symbol": "JSSyntax.UnaryExpression.operator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1224,
+      "symbol": "JSSyntax.UnaryExpression.argument",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1225,
+      "symbol": "JSSyntax.UnaryExpression.prefix",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1232,
+      "symbol": "JSSyntax.UpdateExpression.init(type:operator:argument:prefix:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1240,
+      "symbol": "JSSyntax.UpdateExpression.UpdateExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1240,
+      "symbol": "JSSyntax.UpdateExpression.UpdateExpressionNodeType.UpdateExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1241,
+      "symbol": "JSSyntax.UpdateExpression.operator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1242,
+      "symbol": "JSSyntax.UpdateExpression.argument",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1243,
+      "symbol": "JSSyntax.UpdateExpression.prefix",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1250,
+      "symbol": "JSSyntax.VariableDeclaration.init(type:declarations:kind:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1257,
+      "symbol": "JSSyntax.VariableDeclaration.VariableDeclarationNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1257,
+      "symbol": "JSSyntax.VariableDeclaration.VariableDeclarationNodeType.VariableDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1258,
+      "symbol": "JSSyntax.VariableDeclaration.declarations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1259,
+      "symbol": "JSSyntax.VariableDeclaration.kind",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1266,
+      "symbol": "JSSyntax.VariableDeclarator.init(type:id:init:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1273,
+      "symbol": "JSSyntax.VariableDeclarator.VariableDeclaratorNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1273,
+      "symbol": "JSSyntax.VariableDeclarator.VariableDeclaratorNodeType.VariableDeclarator",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1274,
+      "symbol": "JSSyntax.VariableDeclarator.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1275,
+      "symbol": "JSSyntax.VariableDeclarator.init",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1282,
+      "symbol": "JSSyntax.WhileStatement.init(type:test:body:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1289,
+      "symbol": "JSSyntax.WhileStatement.WhileStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1289,
+      "symbol": "JSSyntax.WhileStatement.WhileStatementNodeType.WhileStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1290,
+      "symbol": "JSSyntax.WhileStatement.test",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1291,
+      "symbol": "JSSyntax.WhileStatement.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1298,
+      "symbol": "JSSyntax.WithStatement.init(type:object:body:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1305,
+      "symbol": "JSSyntax.WithStatement.WithStatementNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1305,
+      "symbol": "JSSyntax.WithStatement.WithStatementNodeType.WithStatement",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1306,
+      "symbol": "JSSyntax.WithStatement.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1307,
+      "symbol": "JSSyntax.WithStatement.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1314,
+      "symbol": "JSSyntax.YieldExpression.init(type:argument:delegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1321,
+      "symbol": "JSSyntax.YieldExpression.YieldExpressionNodeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1321,
+      "symbol": "JSSyntax.YieldExpression.YieldExpressionNodeType.YieldExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1322,
+      "symbol": "JSSyntax.YieldExpression.argument",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1323,
+      "symbol": "JSSyntax.YieldExpression.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1332,
+      "symbol": "JSSyntax.Expression",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1333,
+      "symbol": "JSSyntax.Expression.ThisExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1334,
+      "symbol": "JSSyntax.Expression.Identifier(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1335,
+      "symbol": "JSSyntax.Expression.Literal(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1336,
+      "symbol": "JSSyntax.Expression.SequenceExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1337,
+      "symbol": "JSSyntax.Expression.ArrayExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1338,
+      "symbol": "JSSyntax.Expression.MemberExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1339,
+      "symbol": "JSSyntax.Expression.MetaProperty(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1340,
+      "symbol": "JSSyntax.Expression.CallExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1341,
+      "symbol": "JSSyntax.Expression.ObjectExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1342,
+      "symbol": "JSSyntax.Expression.FunctionExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1343,
+      "symbol": "JSSyntax.Expression.ArrowFunctionExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1344,
+      "symbol": "JSSyntax.Expression.ClassExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1345,
+      "symbol": "JSSyntax.Expression.TaggedTemplateExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1346,
+      "symbol": "JSSyntax.Expression.Super(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1347,
+      "symbol": "JSSyntax.Expression.NewExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1348,
+      "symbol": "JSSyntax.Expression.UpdateExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1349,
+      "symbol": "JSSyntax.Expression.AwaitExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1350,
+      "symbol": "JSSyntax.Expression.UnaryExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1351,
+      "symbol": "JSSyntax.Expression.BinaryExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1352,
+      "symbol": "JSSyntax.Expression.LogicalExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1353,
+      "symbol": "JSSyntax.Expression.ConditionalExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1354,
+      "symbol": "JSSyntax.Expression.YieldExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1355,
+      "symbol": "JSSyntax.Expression.AssignmentExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1356,
+      "symbol": "JSSyntax.Expression.AsyncArrowFunctionExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1357,
+      "symbol": "JSSyntax.Expression.AsyncFunctionExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1358,
+      "symbol": "JSSyntax.Expression.ChainExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1359,
+      "symbol": "JSSyntax.Expression.RegexLiteral(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1463,
+      "symbol": "JSSyntax.Statement",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1464,
+      "symbol": "JSSyntax.Statement.BlockStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1465,
+      "symbol": "JSSyntax.Statement.AsyncFunctionDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1466,
+      "symbol": "JSSyntax.Statement.BreakStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1467,
+      "symbol": "JSSyntax.Statement.ContinueStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1468,
+      "symbol": "JSSyntax.Statement.DebuggerStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1469,
+      "symbol": "JSSyntax.Statement.DoWhileStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1470,
+      "symbol": "JSSyntax.Statement.EmptyStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1471,
+      "symbol": "JSSyntax.Statement.ExpressionStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1472,
+      "symbol": "JSSyntax.Statement.Directive(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1473,
+      "symbol": "JSSyntax.Statement.ForStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1474,
+      "symbol": "JSSyntax.Statement.ForInStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1475,
+      "symbol": "JSSyntax.Statement.ForOfStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1476,
+      "symbol": "JSSyntax.Statement.FunctionDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1477,
+      "symbol": "JSSyntax.Statement.IfStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1478,
+      "symbol": "JSSyntax.Statement.LabeledStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1479,
+      "symbol": "JSSyntax.Statement.ReturnStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1480,
+      "symbol": "JSSyntax.Statement.SwitchStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1481,
+      "symbol": "JSSyntax.Statement.ThrowStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1482,
+      "symbol": "JSSyntax.Statement.TryStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1483,
+      "symbol": "JSSyntax.Statement.VariableDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1484,
+      "symbol": "JSSyntax.Statement.WhileStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1485,
+      "symbol": "JSSyntax.Statement.WithStatement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1574,
+      "symbol": "JSSyntax.Declaration",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1575,
+      "symbol": "JSSyntax.Declaration.AsyncFunctionDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1576,
+      "symbol": "JSSyntax.Declaration.ClassDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1577,
+      "symbol": "JSSyntax.Declaration.ExportAllDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1578,
+      "symbol": "JSSyntax.Declaration.ExportDefaultDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1579,
+      "symbol": "JSSyntax.Declaration.ExportNamedDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1580,
+      "symbol": "JSSyntax.Declaration.FunctionDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1581,
+      "symbol": "JSSyntax.Declaration.ImportDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1582,
+      "symbol": "JSSyntax.Declaration.VariableDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1630,
+      "symbol": "JSSyntax.ArgumentListElementOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1633,
+      "symbol": "JSSyntax.ArgumentListElement",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1634,
+      "symbol": "JSSyntax.ArgumentListElement.Expression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1635,
+      "symbol": "JSSyntax.ArgumentListElement.SpreadElement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1662,
+      "symbol": "JSSyntax.ArrayExpressionElementOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1665,
+      "symbol": "JSSyntax.ArrayExpressionElement",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1666,
+      "symbol": "JSSyntax.ArrayExpressionElement.Expression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1667,
+      "symbol": "JSSyntax.ArrayExpressionElement.SpreadElement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1694,
+      "symbol": "JSSyntax.ArrayPatternElement",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1738,
+      "symbol": "JSSyntax.BindingPatternOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1741,
+      "symbol": "JSSyntax.BindingPattern",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1742,
+      "symbol": "JSSyntax.BindingPattern.ArrayPattern(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1743,
+      "symbol": "JSSyntax.BindingPattern.ObjectPattern(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1772,
+      "symbol": "JSSyntax.BindingIdentifier",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1774,
+      "symbol": "JSSyntax.ChainElementOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1779,
+      "symbol": "JSSyntax.ChainElement",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1780,
+      "symbol": "JSSyntax.ChainElement.CallExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1781,
+      "symbol": "JSSyntax.ChainElement.ComputedMemberExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1782,
+      "symbol": "JSSyntax.ChainElement.StaticMemberExpression(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1814,
+      "symbol": "JSSyntax.ExportableDefaultDeclaration",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1863,
+      "symbol": "JSSyntax.ExportableNamedDeclarationOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1868,
+      "symbol": "JSSyntax.ExportableNamedDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1869,
+      "symbol": "JSSyntax.ExportableNamedDeclaration.AsyncFunctionDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1870,
+      "symbol": "JSSyntax.ExportableNamedDeclaration.ClassDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1871,
+      "symbol": "JSSyntax.ExportableNamedDeclaration.FunctionDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1872,
+      "symbol": "JSSyntax.ExportableNamedDeclaration.VariableDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1907,
+      "symbol": "JSSyntax.ExportDeclarationOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1911,
+      "symbol": "JSSyntax.ExportDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1912,
+      "symbol": "JSSyntax.ExportDeclaration.ExportAllDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1913,
+      "symbol": "JSSyntax.ExportDeclaration.ExportDefaultDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1914,
+      "symbol": "JSSyntax.ExportDeclaration.ExportNamedDeclaration(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1946,
+      "symbol": "JSSyntax.FunctionParameter",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1985,
+      "symbol": "JSSyntax.ImportDeclarationSpecifierOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1989,
+      "symbol": "JSSyntax.ImportDeclarationSpecifier",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1990,
+      "symbol": "JSSyntax.ImportDeclarationSpecifier.ImportDefaultSpecifier(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1991,
+      "symbol": "JSSyntax.ImportDeclarationSpecifier.ImportNamespaceSpecifier(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 1992,
+      "symbol": "JSSyntax.ImportDeclarationSpecifier.ImportSpecifier(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2024,
+      "symbol": "JSSyntax.ObjectExpressionPropertyOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2027,
+      "symbol": "JSSyntax.ObjectExpressionProperty",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2028,
+      "symbol": "JSSyntax.ObjectExpressionProperty.Property(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2029,
+      "symbol": "JSSyntax.ObjectExpressionProperty.SpreadElement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2058,
+      "symbol": "JSSyntax.ObjectPatternPropertyOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2061,
+      "symbol": "JSSyntax.ObjectPatternProperty",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2062,
+      "symbol": "JSSyntax.ObjectPatternProperty.Property(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2063,
+      "symbol": "JSSyntax.ObjectPatternProperty.RestElement(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2092,
+      "symbol": "JSSyntax.PropertyKeyOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2095,
+      "symbol": "JSSyntax.PropertyKey",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2096,
+      "symbol": "JSSyntax.PropertyKey.Identifier(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2097,
+      "symbol": "JSSyntax.PropertyKey.Literal(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2126,
+      "symbol": "JSSyntax.StatementListItem",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2160,
+      "symbol": "JSSyntax.ModuleItem",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2204,
+      "symbol": "JSSyntax.StatementOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2228,
+      "symbol": "JSSyntax.ExpressionOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2256,
+      "symbol": "JSSyntax.DeclarationOneOf",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2267,
+      "symbol": "Messages",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2268,
+      "symbol": "Messages.BadImportCallArity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2269,
+      "symbol": "Messages.BadGetterArity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2270,
+      "symbol": "Messages.BadSetterArity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2271,
+      "symbol": "Messages.BadSetterRestParameter",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2272,
+      "symbol": "Messages.ConstructorIsAsync",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2273,
+      "symbol": "Messages.ConstructorSpecialMethod",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2274,
+      "symbol": "Messages.DeclarationMissingInitializer",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2275,
+      "symbol": "Messages.DefaultRestParameter",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2276,
+      "symbol": "Messages.DefaultRestProperty",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2277,
+      "symbol": "Messages.DuplicateBinding",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2278,
+      "symbol": "Messages.DuplicateConstructor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2279,
+      "symbol": "Messages.DuplicateProtoProperty",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2280,
+      "symbol": "Messages.ForInOfLoopInitializer",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2281,
+      "symbol": "Messages.GeneratorInLegacyContext",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2282,
+      "symbol": "Messages.IllegalBreak",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2283,
+      "symbol": "Messages.IllegalContinue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2284,
+      "symbol": "Messages.IllegalExportDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2285,
+      "symbol": "Messages.IllegalImportDeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2286,
+      "symbol": "Messages.IllegalLanguageModeDirective",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2287,
+      "symbol": "Messages.IllegalReturn",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2288,
+      "symbol": "Messages.InvalidEscapedReservedWord",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2289,
+      "symbol": "Messages.InvalidHexEscapeSequence",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2290,
+      "symbol": "Messages.InvalidLHSInAssignment",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2291,
+      "symbol": "Messages.InvalidLHSInForIn",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2292,
+      "symbol": "Messages.InvalidLHSInForLoop",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2293,
+      "symbol": "Messages.InvalidModuleSpecifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2294,
+      "symbol": "Messages.InvalidRegExp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2295,
+      "symbol": "Messages.LetInLexicalBinding",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2296,
+      "symbol": "Messages.MissingFromClause",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2297,
+      "symbol": "Messages.MultipleDefaultsInSwitch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2298,
+      "symbol": "Messages.NewlineAfterThrow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2299,
+      "symbol": "Messages.NoAsAfterImportNamespace",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2300,
+      "symbol": "Messages.NoCatchOrFinally",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2301,
+      "symbol": "Messages.ParameterAfterRestParameter",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2302,
+      "symbol": "Messages.PropertyAfterRestProperty",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2303,
+      "symbol": "Messages.Redeclaration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2304,
+      "symbol": "Messages.StaticPrototype",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2305,
+      "symbol": "Messages.StrictCatchVariable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2306,
+      "symbol": "Messages.StrictDelete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2307,
+      "symbol": "Messages.StrictFunction",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2308,
+      "symbol": "Messages.StrictFunctionName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2309,
+      "symbol": "Messages.StrictLHSAssignment",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2310,
+      "symbol": "Messages.StrictLHSPostfix",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2311,
+      "symbol": "Messages.StrictLHSPrefix",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2312,
+      "symbol": "Messages.StrictModeWith",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2313,
+      "symbol": "Messages.StrictOctalLiteral",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2314,
+      "symbol": "Messages.StrictParamDupe",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2315,
+      "symbol": "Messages.StrictParamName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2316,
+      "symbol": "Messages.StrictReservedWord",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2317,
+      "symbol": "Messages.StrictVarName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2318,
+      "symbol": "Messages.TemplateOctalLiteral",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2319,
+      "symbol": "Messages.UnexpectedEOS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2320,
+      "symbol": "Messages.UnexpectedIdentifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2321,
+      "symbol": "Messages.UnexpectedNumber",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2322,
+      "symbol": "Messages.UnexpectedReserved",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2323,
+      "symbol": "Messages.UnexpectedString",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2324,
+      "symbol": "Messages.UnexpectedTemplate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2325,
+      "symbol": "Messages.UnexpectedToken",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2326,
+      "symbol": "Messages.UnexpectedTokenIllegal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2327,
+      "symbol": "Messages.UnknownLabel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2328,
+      "symbol": "Messages.UnterminatedRegExp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2401,
+      "symbol": "JSTokenType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2402,
+      "symbol": "JSTokenType.BooleanLiteral",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2403,
+      "symbol": "JSTokenType.EOF",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2404,
+      "symbol": "JSTokenType.Identifier",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2405,
+      "symbol": "JSTokenType.Keyword",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2406,
+      "symbol": "JSTokenType.NullLiteral",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2407,
+      "symbol": "JSTokenType.NumericLiteral",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2408,
+      "symbol": "JSTokenType.Punctuator",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2409,
+      "symbol": "JSTokenType.StringLiteral",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2410,
+      "symbol": "JSTokenType.RegularExpression",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2411,
+      "symbol": "JSTokenType.Template",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2412,
+      "symbol": "JSTokenType.LineComment",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2418,
+      "symbol": "Regex",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2419,
+      "symbol": "Regex.pattern",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2420,
+      "symbol": "Regex.flags",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2425,
+      "symbol": "JSToken.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2426,
+      "symbol": "JSToken.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2427,
+      "symbol": "JSToken.regex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2428,
+      "symbol": "JSToken.range",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2429,
+      "symbol": "JSToken.loc",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2444,
+      "symbol": "JSSyntaxError",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2445,
+      "symbol": "JSSyntaxError.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2446,
+      "symbol": "JSSyntaxError.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2447,
+      "symbol": "JSSyntaxError.index",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2448,
+      "symbol": "JSSyntaxError.lineNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2449,
+      "symbol": "JSSyntaxError.column",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2450,
+      "symbol": "JSSyntaxError.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2496,
+      "symbol": "Position",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2497,
+      "symbol": "Position.init(line:column:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2502,
+      "symbol": "Position.line",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2503,
+      "symbol": "Position.column",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2506,
+      "symbol": "SourceLocation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2507,
+      "symbol": "SourceLocation.init(start:end:source:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2513,
+      "symbol": "SourceLocation.start",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2514,
+      "symbol": "SourceLocation.end",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/JSSwift/Sources/JSSwift/JSSyntax.swift",
+      "line": 2515,
+      "symbol": "SourceLocation.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/opt/src/github/jectivex/JSSwift"
+}

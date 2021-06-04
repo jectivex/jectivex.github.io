@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JXValueDecoder Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/JXValueDecoder" class="dashAnchor"></a>
+    <a title="JXValueDecoder Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p>
+          <a href="../index.html"> Docs</a>
+          <span class="no-mobile"> (84% documented)</span>
+        </p>
+    
+        <p class="header-right">
+          <a href="https://github.com/jectivex/JXKit">
+            <img src="../img/gh.png"/>
+            <span class="no-mobile">View on GitHub</span>
+          </a>
+        </p>
+    
+      </div>
+    </header>
+    <div id="breadcrumbs-container">
+      <div class="content-wrapper">
+        <p id="breadcrumbs">
+          <span class="no-mobile">
+            <a href="../index.html"> Reference</a>
+            <img id="carat" src="../img/carat.png" />
+          </span>
+          JXValueDecoder Class Reference
+        </p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="article-wrapper">
+        <article class="main-content">
+          <section>
+            <section class="section">
+              <h1>JXValueDecoder</h1>
+                <div class="declaration">
+                  <div class="language">
+                    
+                    <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">JXValueDecoder</span></code></pre>
+
+                  </div>
+                </div>
+              <p><code>JXValueDecoder</code> facilitates the decoding of <code><a href="../Classes/JXValue.html">JXValue</a></code> values into <code>Decodable</code> types.</p>
+
+            </section>
+            <section class="section task-group-section">
+              <div class="task-group">
+                <div class="task-name-container">
+                  <a name="/Options"></a>
+                  <a name="//apple_ref/swift/Section/Options" class="dashAnchor"></a>
+                  <div class="section-name-container">
+                    <a class="section-name-link" href="#/Options"></a>
+                    <h3 class="section-name"><p>Options</p>
+</h3>
+                  </div>
+                </div>
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit14JXValueDecoderC8userInfoSDys010CodingUserE3KeyVypGvp"></a>
+                      <a name="//apple_ref/swift/Property/userInfo" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit14JXValueDecoderC8userInfoSDys010CodingUserE3KeyVypGvp">userInfo</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Contextual user-provided information for use during decoding.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">CodingUserInfoKey</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="task-group">
+                <div class="task-name-container">
+                  <a name="/Constructing%20a%20JXValue%20Decoder"></a>
+                  <a name="//apple_ref/swift/Section/Constructing a JXValue Decoder" class="dashAnchor"></a>
+                  <div class="section-name-container">
+                    <a class="section-name-link" href="#/Constructing%20a%20JXValue%20Decoder"></a>
+                    <h3 class="section-name"><p>Constructing a JXValue Decoder</p>
+</h3>
+                  </div>
+                </div>
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit14JXValueDecoderC7contextAcA9JXContextC_tcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(context:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit14JXValueDecoderC7contextAcA9JXContextC_tcfc">init(context:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Initializes <code>self</code> with default strategies.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">context</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="task-group">
+                <div class="task-name-container">
+                  <a name="/Decoding%20Values"></a>
+                  <a name="//apple_ref/swift/Section/Decoding Values" class="dashAnchor"></a>
+                  <div class="section-name-container">
+                    <a class="section-name-link" href="#/Decoding%20Values"></a>
+                    <h3 class="section-name"><p>Decoding Values</p>
+</h3>
+                  </div>
+                </div>
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit14JXValueDecoderC6decode_4fromxxm_AA0B0CtKSeRzlF"></a>
+                      <a name="//apple_ref/swift/Method/decode(_:from:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit14JXValueDecoderC6decode_4fromxxm_AA0B0CtKSeRzlF">decode(_:<wbr>from:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Decodes a top-level value of the given type from the given script representation.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <code>DecodingError.dataCorrupted</code> if values requested from the payload are corrupted, or if the given data is not a valid script object.
+
+</div><div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    An error if any value throws an error during decoding.
+
+</div>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="n">decode</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">type</span><span class="p">:</span> <span class="kt">T</span><span class="o">.</span><span class="k">Type</span><span class="p">,</span> <span class="n">from</span> <span class="nv">data</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXValue.html">JXValue</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">T</span> <span class="k">where</span> <span class="kt">T</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>type</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The type of the value to decode.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>data</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The data to decode from.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>A value of the requested type.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit14JXValueDecoderC6decode_4from6formatxxm_AA0B0CSo20NSPropertyListFormatVztKSeRzlF"></a>
+                      <a name="//apple_ref/swift/Method/decode(_:from:format:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit14JXValueDecoderC6decode_4from6formatxxm_AA0B0CSo20NSPropertyListFormatVztKSeRzlF">decode(_:<wbr>from:<wbr>format:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Decodes a top-level value of the given type from the given script object representation.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <code>DecodingError.dataCorrupted</code> if values requested from the payload are corrupted, or if the given data is not a valid script object.
+
+</div><div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    An error if any value throws an error during decoding.
+
+</div>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="n">decode</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">type</span><span class="p">:</span> <span class="kt">T</span><span class="o">.</span><span class="k">Type</span><span class="p">,</span> <span class="n">from</span> <span class="nv">object</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXValue.html">JXValue</a></span><span class="p">,</span> <span class="nv">format</span><span class="p">:</span> <span class="k">inout</span> <span class="kt">PropertyListSerialization</span><span class="o">.</span><span class="kt">PropertyListFormat</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">T</span> <span class="k">where</span> <span class="kt">T</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>type</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The type of the value to decode.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>data</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The data to decode from.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>format</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The parsed script object format.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>A value of the requested type along with the detected format of the script object.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </article>
+      </div>
+      <div class="nav-wrapper">
+        <nav class="nav-bottom">
+          <ul class="nav-groups">
+            <li class="nav-group-name">
+              <a href="../Classes.html">Classes</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Classes/JXContext.html">JXContext</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXContext/Errors.html">– Errors</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXContextGroup.html">JXContextGroup</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXValue.html">JXValue</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXValueDecoder.html">JXValueDecoder</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXValueEncoder.html">JXValueEncoder</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Extensions.html">Extensions</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Extensions/JSContext.html">JSContext</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Extensions/JSValue.html">JSValue</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Extensions/JSVirtualMachine.html">JSVirtualMachine</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Extensions/String.html">String</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Protocols.html">Protocols</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Protocols/JSCEnv.html">JSCEnv</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Protocols/JXEnv.html">JXEnv</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Protocols/JXVM.html">JXVM</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Protocols/JXVal.html">JXVal</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Structs.html">Structures</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Structs/JXProp.html">JXProp</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Typealiases.html">Type Aliases</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Typealiases.html#/s:5JXKit30JXObjectCallAsFunctionCallbacka">JXObjectCallAsFunctionCallback</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-wrapper">
+        <section id="footer">
+          <p><a class="link" href="http://www.jective.org" target="_blank" rel="external">www.jective.org</a></p>
+          
+        </section>
+      </div>
+    </div>
+  </body>
+</div>
+</html>

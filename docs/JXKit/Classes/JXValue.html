@@ -1,0 +1,2758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JXValue Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/JXValue" class="dashAnchor"></a>
+    <a title="JXValue Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p>
+          <a href="../index.html"> Docs</a>
+          <span class="no-mobile"> (84% documented)</span>
+        </p>
+    
+        <p class="header-right">
+          <a href="https://github.com/jectivex/JXKit">
+            <img src="../img/gh.png"/>
+            <span class="no-mobile">View on GitHub</span>
+          </a>
+        </p>
+    
+      </div>
+    </header>
+    <div id="breadcrumbs-container">
+      <div class="content-wrapper">
+        <p id="breadcrumbs">
+          <span class="no-mobile">
+            <a href="../index.html"> Reference</a>
+            <img id="carat" src="../img/carat.png" />
+          </span>
+          JXValue Class Reference
+        </p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="article-wrapper">
+        <article class="main-content">
+          <section>
+            <section class="section">
+              <h1>JXValue</h1>
+                <div class="declaration">
+                  <div class="language">
+                    
+                    <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">JXValue</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">JXValue</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/JXVal.html">JXVal</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">JXValue</span><span class="p">:</span> <span class="kt">CustomStringConvertible</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">JXValue</span><span class="p">:</span> <span class="kt">Error</span></code></pre>
+
+                  </div>
+                </div>
+              <p>A JavaScript object.</p>
+
+<p>This wraps a <code>JSObjectRef</code>, and is the equivalent of <code>JavaScriptCore.JSValue</code></p>
+
+            </section>
+            <section class="section task-group-section">
+              <div class="task-group">
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP3env7EnvTypeQzvp"></a>
+                      <a name="//apple_ref/swift/Property/env" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP3env7EnvTypeQzvp">env</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC5values13OpaquePointerVvp"></a>
+                      <a name="//apple_ref/swift/Property/value" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC5values13OpaquePointerVvp">value</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">JSValueRef</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC3env5valueAcA9JXContextC_s13OpaquePointerVtcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(env:value:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC3env5valueAcA9JXContextC_s13OpaquePointerVtcfc">init(env:<wbr>value:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">JSValueRef</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC11toDecodable6ofTypexxm_tKSeRzlF"></a>
+                      <a name="//apple_ref/swift/Method/toDecodable(ofType:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC11toDecodable6ofTypexxm_tKSeRzlF">toDecodable(ofType:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Uses a <code><a href="../Classes/JXValueDecoder.html">JXValueDecoder</a></code> to decode the <code>Decodable</code></p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="n">toDecodable</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">ofType</span><span class="p">:</span> <span class="kt">T</span><span class="o">.</span><span class="k">Type</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">T</span> <span class="k">where</span> <span class="kt">T</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="task-group">
+                <div class="task-name-container">
+                  <a name="/JXContextGroup%20%2F%20JSVirtualMachine"></a>
+                  <a name="//apple_ref/swift/Section/JXContextGroup / JSVirtualMachine" class="dashAnchor"></a>
+                  <div class="section-name-container">
+                    <a class="section-name-link" href="#/JXContextGroup%20%2F%20JSVirtualMachine"></a>
+                    <h3 class="section-name"><p>JXContextGroup / JSVirtualMachine</p>
+</h3>
+                  </div>
+                </div>
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC11undefinedInAcA9JXContextC_tcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(undefinedIn:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC11undefinedInAcA9JXContextC_tcfc">init(undefinedIn:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript value of the <code>undefined</code> type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">undefinedIn</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC6nullInAcA9JXContextC_tcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(nullIn:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC6nullInAcA9JXContextC_tcfc">init(nullIn:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript value of the <code>null</code> type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">nullIn</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC4bool2inACSb_AA9JXContextCtcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(bool:in:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC4bool2inACSb_AA9JXContextCtcfc">init(bool:<wbr>in:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript <code>Boolean</code> value.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">bool</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="k">in</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>value</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The value to assign to the object.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC6double2inACSd_AA9JXContextCtcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(double:in:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC6double2inACSd_AA9JXContextCtcfc">init(double:<wbr>in:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript value of the <code>Number</code> type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">double</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Double</span><span class="p">,</span> <span class="k">in</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>value</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The value to assign to the object.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC6string2inACSS_AA9JXContextCtcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(string:in:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC6string2inACSS_AA9JXContextCtcfc">init(string:<wbr>in:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript value of the <code>String</code> type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">string</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="k">in</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>value</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The value to assign to the object.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC4json2inACSgSS_AA9JXContextCtcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(json:in:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC4json2inACSgSS_AA9JXContextCtcfc">init(json:<wbr>in:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript value of the parsed <code>JSON</code>.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">?(</span><span class="n">json</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="k">in</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>value</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The JSON value to parse</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC4date2inAC10Foundation4DateV_AA9JXContextCtcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(date:in:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC4date2inAC10Foundation4DateV_AA9JXContextCtcfc">init(date:<wbr>in:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript <code>Date</code> object, as if by invoking the built-in <code>RegExp</code> constructor.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">date</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Date</span><span class="p">,</span> <span class="k">in</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>value</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The value to assign to the object.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC31newRegularExpressionFromPattern5flags2inACSS_SSAA9JXContextCtcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(newRegularExpressionFromPattern:flags:in:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC31newRegularExpressionFromPattern5flags2inACSS_SSAA9JXContextCtcfc">init(newRegularExpressionFromPattern:<wbr>flags:<wbr>in:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript <code>RegExp</code> object, as if by invoking the built-in <code>RegExp</code> constructor.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">newRegularExpressionFromPattern</span> <span class="nv">pattern</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">flags</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="k">in</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>pattern</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The pattern of regular expression.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>flags</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The flags pass to the constructor.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC19newErrorFromMessage2inACSS_AA9JXContextCtcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(newErrorFromMessage:in:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC19newErrorFromMessage2inACSS_AA9JXContextCtcfc">init(newErrorFromMessage:<wbr>in:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript <code>Error</code> object, as if by invoking the built-in <code>Error</code> constructor.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">newErrorFromMessage</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="k">in</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>message</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The error message.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC11newObjectInAcA9JXContextC_tcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(newObjectIn:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC11newObjectInAcA9JXContextC_tcfc">init(newObjectIn:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript <code>Object</code>.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">newObjectIn</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC11newObjectIn9prototypeAcA9JXContextC_ACtcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(newObjectIn:prototype:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC11newObjectIn9prototypeAcA9JXContextC_ACtcfc">init(newObjectIn:<wbr>prototype:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript <code>Object</code> with prototype.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">newObjectIn</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">,</span> <span class="nv">prototype</span><span class="p">:</span> <span class="kt">JXValue</span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>prototype</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The prototype to be used.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC10newArrayInAcA9JXContextC_tcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(newArrayIn:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC10newArrayInAcA9JXContextC_tcfc">init(newArrayIn:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript <code>Array</code> object.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">newArrayIn</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:s23CustomStringConvertibleP11descriptionSSvp"></a>
+                      <a name="//apple_ref/swift/Property/description" class="dashAnchor"></a>
+                      <a class="token" href="#/s:s23CustomStringConvertibleP11descriptionSSvp">description</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">description</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC9prototypeACvp"></a>
+                      <a name="//apple_ref/swift/Property/prototype" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC9prototypeACvp">prototype</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Object’s prototype.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">prototype</span><span class="p">:</span> <span class="kt">JXValue</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC11isUndefinedSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isUndefined" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC11isUndefinedSbvp">isUndefined</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether a JavaScript value’s type is the undefined type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isUndefined</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC6isNullSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isNull" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC6isNullSbvp">isNull</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether a JavaScript value’s type is the null type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isNull</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC9isBooleanSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isBoolean" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC9isBooleanSbvp">isBoolean</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether a JavaScript value is Boolean.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isBoolean</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC8isNumberSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isNumber" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC8isNumberSbvp">isNumber</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether a JavaScript value’s type is the number type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isNumber</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC8isStringSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isString" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC8isStringSbvp">isString</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether a JavaScript value’s type is the string type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isString</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC8isObjectSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isObject" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC8isObjectSbvp">isObject</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether a JavaScript value’s type is the object type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isObject</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC6isDateSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isDate" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC6isDateSbvp">isDate</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether a JavaScript value’s type is the date type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isDate</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC7isArraySbvp"></a>
+                      <a name="//apple_ref/swift/Property/isArray" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC7isArraySbvp">isArray</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether a JavaScript value’s type is the array type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isArray</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC13isConstructorSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isConstructor" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC13isConstructorSbvp">isConstructor</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether an object can be called as a constructor.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isConstructor</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC10isFunctionSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isFunction" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC10isFunctionSbvp">isFunction</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether an object can be called as a function.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isFunction</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC7isErrorSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isError" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC7isErrorSbvp">isError</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether a JavaScript value’s type is the error type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isError</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC8isFrozenSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isFrozen" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC8isFrozenSbvp">isFrozen</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isFrozen</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC12isExtensibleSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isExtensible" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC12isExtensibleSbvp">isExtensible</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isExtensible</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC8isSealedSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isSealed" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC8isSealedSbvp">isSealed</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">isSealed</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC6freezeyyF"></a>
+                      <a name="//apple_ref/swift/Method/freeze()" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC6freezeyyF">freeze()</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">freeze</span><span class="p">()</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC17preventExtensionsyyF"></a>
+                      <a name="//apple_ref/swift/Method/preventExtensions()" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC17preventExtensionsyyF">preventExtensions()</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">preventExtensions</span><span class="p">()</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC4sealyyF"></a>
+                      <a name="//apple_ref/swift/Method/seal()" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC4sealyyF">seal()</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">seal</span><span class="p">()</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC12booleanValueSbvp"></a>
+                      <a name="//apple_ref/swift/Property/booleanValue" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC12booleanValueSbvp">booleanValue</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Returns the JavaScript boolean value.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">booleanValue</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC11numberValueSdSgvp"></a>
+                      <a name="//apple_ref/swift/Property/numberValue" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC11numberValueSdSgvp">numberValue</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Returns the JavaScript number value.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">numberValue</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC11stringValueSSSgvp"></a>
+                      <a name="//apple_ref/swift/Property/stringValue" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC11stringValueSSSgvp">stringValue</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Returns the JavaScript string value.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">stringValue</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC9dateValue10Foundation4DateVSgvp"></a>
+                      <a name="//apple_ref/swift/Property/dateValue" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC9dateValue10Foundation4DateVSgvp">dateValue</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Returns the JavaScript date value.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">dateValue</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC5arraySayACGSgvp"></a>
+                      <a name="//apple_ref/swift/Property/array" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC5arraySayACGSgvp">array</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Returns the JavaScript array.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">array</span><span class="p">:</span> <span class="p">[</span><span class="kt">JXValue</span><span class="p">]?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC10dictionarySDySSACGSgvp"></a>
+                      <a name="//apple_ref/swift/Property/dictionary" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC10dictionarySDySSACGSgvp">dictionary</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Returns the JavaScript object as dictionary.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">dictionary</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">JXValue</span><span class="p">]?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC4call13withArguments4thisACSayACG_ACSgtF"></a>
+                      <a name="//apple_ref/swift/Method/call(withArguments:this:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC4call13withArguments4thisACSayACG_ACSgtF">call(withArguments:<wbr>this:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Calls an object as a function.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">call</span><span class="p">(</span><span class="n">withArguments</span> <span class="nv">arguments</span><span class="p">:</span> <span class="p">[</span><span class="kt">JXValue</span><span class="p">],</span> <span class="nv">this</span><span class="p">:</span> <span class="kt">JXValue</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">JXValue</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>arguments</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The arguments pass to the function.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>this</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The object to use as <code>this</code>, or <code>nil</code> to use the global object as <code>this</code>.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>The object that results from calling object as a function</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC9construct13withArgumentsACSayACG_tF"></a>
+                      <a name="//apple_ref/swift/Method/construct(withArguments:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC9construct13withArgumentsACSayACG_tF">construct(withArguments:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Calls an object as a constructor.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">construct</span><span class="p">(</span><span class="n">withArguments</span> <span class="nv">arguments</span><span class="p">:</span> <span class="p">[</span><span class="kt">JXValue</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">JXValue</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>arguments</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The arguments pass to the function.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>The object that results from calling object as a constructor.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC12invokeMethod_13withArgumentsACSS_SayACGtF"></a>
+                      <a name="//apple_ref/swift/Method/invokeMethod(_:withArguments:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC12invokeMethod_13withArgumentsACSS_SayACGtF">invokeMethod(_:<wbr>withArguments:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Invoke an object&rsquo;s method.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">invokeMethod</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withArguments</span> <span class="nv">arguments</span><span class="p">:</span> <span class="p">[</span><span class="kt">JXValue</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">JXValue</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>name</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The name of method.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>arguments</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The arguments pass to the function.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>The object that results from calling the method.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC7isEqual2toSbAC_tF"></a>
+                      <a name="//apple_ref/swift/Method/isEqual(to:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC7isEqual2toSbAC_tF">isEqual(to:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether two JavaScript values are strict equal, as compared by the JS <code>===</code> operator.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">isEqual</span><span class="p">(</span><span class="n">to</span> <span class="nv">other</span><span class="p">:</span> <span class="kt">JXValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>other</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The other value to be compare.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>true if the two values are strict equal; otherwise false.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC23isEqualWithTypeCoercion2toSbAC_tF"></a>
+                      <a name="//apple_ref/swift/Method/isEqualWithTypeCoercion(to:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC23isEqualWithTypeCoercion2toSbAC_tF">isEqualWithTypeCoercion(to:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether two JavaScript values are equal, as compared by the JS <code>==</code> operator.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">isEqualWithTypeCoercion</span><span class="p">(</span><span class="n">to</span> <span class="nv">other</span><span class="p">:</span> <span class="kt">JXValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>other</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The other value to be compare.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>true if the two values are equal; false if they are not equal or an exception is thrown.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC10isInstance2ofSbAC_tF"></a>
+                      <a name="//apple_ref/swift/Method/isInstance(of:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC10isInstance2ofSbAC_tF">isInstance(of:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether a JavaScript value is an object constructed by a given constructor, as compared by the <code>isInstance(of:)</code> operator.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">isInstance</span><span class="p">(</span><span class="n">of</span> <span class="nv">other</span><span class="p">:</span> <span class="kt">JXValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>other</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The constructor to test against.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>true if the value is an object constructed by constructor, as compared by the JS isInstance(of:) operator; otherwise false.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC10propertiesSaySSGvp"></a>
+                      <a name="//apple_ref/swift/Property/properties" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC10propertiesSaySSGvp">properties</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Get the names of an object’s enumerable properties.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">properties</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC11hasPropertyySbSSF"></a>
+                      <a name="//apple_ref/swift/Method/hasProperty(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC11hasPropertyySbSSF">hasProperty(_:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether an object has a given property.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">hasProperty</span><span class="p">(</span><span class="n">_</span> <span class="nv">property</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>property</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The property&rsquo;s name.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>true if the object has <code>property</code>, otherwise false.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC14removePropertyySbSSF"></a>
+                      <a name="//apple_ref/swift/Method/removeProperty(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC14removePropertyySbSSF">removeProperty(_:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Deletes a property from an object.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeProperty</span><span class="p">(</span><span class="n">_</span> <span class="nv">property</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>property</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The property&rsquo;s name.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>true if the delete operation succeeds, otherwise false.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC11hasPropertyySbACF"></a>
+                      <a name="//apple_ref/swift/Method/hasProperty(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC11hasPropertyySbACF">hasProperty(_:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Checks if a property exists</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">hasProperty</span><span class="p">(</span><span class="n">_</span> <span class="nv">property</span><span class="p">:</span> <span class="kt">JXValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>property</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The property&rsquo;s key (usually a string or number).</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>true if a property with the given key exists</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC14deletePropertyySbACF"></a>
+                      <a name="//apple_ref/swift/Method/deleteProperty(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC14deletePropertyySbACF">deleteProperty(_:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Deletes a property from an object or array.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">deleteProperty</span><span class="p">(</span><span class="n">_</span> <span class="nv">property</span><span class="p">:</span> <span class="kt">JXValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>property</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The property&rsquo;s name.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>true if the delete operation succeeds, otherwise false.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueCyACSScip"></a>
+                      <a name="//apple_ref/swift/Method/subscript(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueCyACSScip">subscript(_:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The value of the property.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="nf">subscript</span><span class="p">(</span><span class="nv">propertyName</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">JXValue</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC5countSivp"></a>
+                      <a name="//apple_ref/swift/Property/count" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC5countSivp">count</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The length of the object.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="k">var</span> <span class="nv">count</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueCyACSicip"></a>
+                      <a name="//apple_ref/swift/Method/subscript(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueCyACSicip">subscript(_:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The value in object at index.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="nf">subscript</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">JXValue</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC6toJSON6indentSSs6UInt32V_tKF"></a>
+                      <a name="//apple_ref/swift/Method/toJSON(indent:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC6toJSON6indentSSs6UInt32V_tKF">toJSON(indent:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Returns the JavaScript string with the given indentation. This should be the same as the output of <code>JSON.stringify</code>.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">toJSON</span><span class="p">(</span><span class="nv">indent</span><span class="p">:</span> <span class="kt">UInt32</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC24newArrayBufferWithLength2inACSi_AA9JXContextCtcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(newArrayBufferWithLength:in:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC24newArrayBufferWithLength2inACSi_AA9JXContextCtcfc">init(newArrayBufferWithLength:<wbr>in:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript <code>ArrayBuffer</code> object.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">newArrayBufferWithLength</span> <span class="nv">length</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="k">in</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>length</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>Length of new <code>ArrayBuffer</code> object.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC29newArrayBufferWithBytesNoCopy11deallocator2inACSw_ySwcAA9JXContextCtcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(newArrayBufferWithBytesNoCopy:deallocator:in:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC29newArrayBufferWithBytesNoCopy11deallocator2inACSw_ySwcAA9JXContextCtcfc">init(newArrayBufferWithBytesNoCopy:<wbr>deallocator:<wbr>in:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript <code>ArrayBuffer</code> object.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">macOS</span> <span class="mf">10.12</span><span class="p">,</span> <span class="n">iOS</span> <span class="mf">10.0</span><span class="p">,</span> <span class="n">tvOS</span> <span class="mf">10.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span>
+    <span class="n">newArrayBufferWithBytesNoCopy</span> <span class="nv">bytes</span><span class="p">:</span> <span class="kt">UnsafeMutableRawBufferPointer</span><span class="p">,</span>
+    <span class="nv">deallocator</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UnsafeMutableRawBufferPointer</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">,</span>
+    <span class="k">in</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span>
+<span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>bytes</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A buffer to be used as the backing store of the <code>ArrayBuffer</code> object.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>deallocator</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The allocator to use to deallocate the external buffer when the <code>ArrayBuffer</code> object is deallocated.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC23newArrayBufferWithBytes2inACx_AA9JXContextCtc10Foundation12DataProtocolRzlufc"></a>
+                      <a name="//apple_ref/swift/Method/init(newArrayBufferWithBytes:in:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC23newArrayBufferWithBytes2inACx_AA9JXContextCtc10Foundation12DataProtocolRzlufc">init(newArrayBufferWithBytes:<wbr>in:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript <code>ArrayBuffer</code> object.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">macOS</span> <span class="mf">10.12</span><span class="p">,</span> <span class="n">iOS</span> <span class="mf">10.0</span><span class="p">,</span> <span class="n">tvOS</span> <span class="mf">10.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">convenience</span> <span class="kd">init</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">newArrayBufferWithBytes</span> <span class="nv">bytes</span><span class="p">:</span> <span class="kt">S</span><span class="p">,</span> <span class="k">in</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">)</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">DataProtocol</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>bytes</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>A buffer to copy.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC13isArrayBufferSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isArrayBuffer" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC13isArrayBufferSbvp">isArrayBuffer</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Tests whether a JavaScript value’s type is the <code>ArrayBuffer</code> type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isArrayBuffer</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC10byteLengthSivp"></a>
+                      <a name="//apple_ref/swift/Property/byteLength" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC10byteLengthSivp">byteLength</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The length (in bytes) of the <code>ArrayBuffer</code>.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">byteLength</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC9copyBytes10Foundation4DataVSgyF"></a>
+                      <a name="//apple_ref/swift/Method/copyBytes()" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC9copyBytes10Foundation4DataVSgyF">copyBytes()</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Copy the bytes of <code>ArrayBuffer</code>.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">copyBytes</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Data</span><span class="p">?</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC13newFunctionIn8callbackAcA9JXContextC_AcG_ACSgSayACGtKctcfc"></a>
+                      <a name="//apple_ref/swift/Method/init(newFunctionIn:callback:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC13newFunctionIn8callbackAcA9JXContextC_AcG_ACSgSayACGtKctcfc">init(newFunctionIn:<wbr>callback:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a JavaScript value of the function type.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>This object is callable as a function (due to <code>JSClassDefinition.callAsFunction</code>), but the JavaScript runtime doesn&rsquo;t treat is exactly like a function. For example, you cannot call &ldquo;apply&rdquo; on it. It could be better to use <code>JSObjectMakeFunctionWithCallback</code>, which may act more like a &ldquo;true&rdquo; JavaScript function.</p>
+
+</div>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="n">newFunctionIn</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Classes/JXContext.html">JXContext</a></span><span class="p">,</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:5JXKit30JXObjectCallAsFunctionCallbacka">JXObjectCallAsFunctionCallback</a></span><span class="p">)</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>context</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The execution context to use.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>callback</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The callback function.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC14definePropertyySbSS_AA6JXPropVtF"></a>
+                      <a name="//apple_ref/swift/Method/defineProperty(_:_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC14definePropertyySbSS_AA6JXPropVtF">defineProperty(_:<wbr>_:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Defines a property on the JavaScript object value or modifies a property’s definition.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">defineProperty</span><span class="p">(</span><span class="n">_</span> <span class="nv">property</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">_</span> <span class="nv">descriptor</span><span class="p">:</span> <span class="kt"><a href="../Structs/JXProp.html">JXProp</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>property</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The property&rsquo;s name.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>descriptor</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>The descriptor object.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>true if the operation succeeds, otherwise false.</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC18propertyDescriptoryACSSF"></a>
+                      <a name="//apple_ref/swift/Method/propertyDescriptor(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC18propertyDescriptoryACSSF">propertyDescriptor(_:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">propertyDescriptor</span><span class="p">(</span><span class="n">_</span> <span class="nv">property</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">JXValue</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </article>
+      </div>
+      <div class="nav-wrapper">
+        <nav class="nav-bottom">
+          <ul class="nav-groups">
+            <li class="nav-group-name">
+              <a href="../Classes.html">Classes</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Classes/JXContext.html">JXContext</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXContext/Errors.html">– Errors</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXContextGroup.html">JXContextGroup</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXValue.html">JXValue</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXValueDecoder.html">JXValueDecoder</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXValueEncoder.html">JXValueEncoder</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Extensions.html">Extensions</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Extensions/JSContext.html">JSContext</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Extensions/JSValue.html">JSValue</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Extensions/JSVirtualMachine.html">JSVirtualMachine</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Extensions/String.html">String</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Protocols.html">Protocols</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Protocols/JSCEnv.html">JSCEnv</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Protocols/JXEnv.html">JXEnv</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Protocols/JXVM.html">JXVM</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Protocols/JXVal.html">JXVal</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Structs.html">Structures</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Structs/JXProp.html">JXProp</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Typealiases.html">Type Aliases</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Typealiases.html#/s:5JXKit30JXObjectCallAsFunctionCallbacka">JXObjectCallAsFunctionCallback</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-wrapper">
+        <section id="footer">
+          <p><a class="link" href="http://www.jective.org" target="_blank" rel="external">www.jective.org</a></p>
+          
+        </section>
+      </div>
+    </div>
+  </body>
+</div>
+</html>

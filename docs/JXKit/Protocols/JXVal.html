@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JXVal Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/JXVal" class="dashAnchor"></a>
+    <a title="JXVal Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p>
+          <a href="../index.html"> Docs</a>
+          <span class="no-mobile"> (84% documented)</span>
+        </p>
+    
+        <p class="header-right">
+          <a href="https://github.com/jectivex/JXKit">
+            <img src="../img/gh.png"/>
+            <span class="no-mobile">View on GitHub</span>
+          </a>
+        </p>
+    
+      </div>
+    </header>
+    <div id="breadcrumbs-container">
+      <div class="content-wrapper">
+        <p id="breadcrumbs">
+          <span class="no-mobile">
+            <a href="../index.html"> Reference</a>
+            <img id="carat" src="../img/carat.png" />
+          </span>
+          JXVal Protocol Reference
+        </p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="article-wrapper">
+        <article class="main-content">
+          <section>
+            <section class="section">
+              <h1>JXVal</h1>
+                <div class="declaration">
+                  <div class="language">
+                    
+                    <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">JXVal</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                  </div>
+                </div>
+              <p>A <code><a href="../Protocols/JXEnv.html">JXEnv</a></code> is an abstraction of a JavaScript value.</p>
+
+            </section>
+            <section class="section task-group-section">
+              <div class="task-group">
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP7EnvTypeQa"></a>
+                      <a name="//apple_ref/swift/Alias/EnvType" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP7EnvTypeQa">EnvType</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The value type that is associated with this environment</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">associatedtype</span> <span class="kt">EnvType</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/JXEnv.html">JXEnv</a></span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP3env7EnvTypeQzvp"></a>
+                      <a name="//apple_ref/swift/Property/env" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP3env7EnvTypeQzvp">env</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>The context associated with this value</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">env</span><span class="p">:</span> <span class="kt"><a href="../Protocols/JXVal.html#/s:5JXKit5JXValP7EnvTypeQa">EnvType</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP10propertiesSaySSGvp"></a>
+                      <a name="//apple_ref/swift/Property/properties" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP10propertiesSaySSGvp">properties</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">properties</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP11hasPropertyySbSSF"></a>
+                      <a name="//apple_ref/swift/Method/hasProperty(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP11hasPropertyySbSSF">hasProperty(_:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">hasProperty</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP11isUndefinedSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isUndefined" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP11isUndefinedSbvp">isUndefined</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isUndefined</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP6isNullSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isNull" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP6isNullSbvp">isNull</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isNull</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP8isObjectSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isObject" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP8isObjectSbvp">isObject</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isObject</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP8isNumberSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isNumber" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP8isNumberSbvp">isNumber</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isNumber</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP11numberValueSdSgvp"></a>
+                      <a name="//apple_ref/swift/Property/numberValue" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP11numberValueSdSgvp">numberValue</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">numberValue</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP8isStringSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isString" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP8isStringSbvp">isString</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isString</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP11stringValueSSSgvp"></a>
+                      <a name="//apple_ref/swift/Property/stringValue" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP11stringValueSSSgvp">stringValue</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">stringValue</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP10isFunctionSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isFunction" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP10isFunctionSbvp">isFunction</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isFunction</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP4call13withArguments4this7EnvType_0bH0QZSayAIG_AISgtF"></a>
+                      <a name="//apple_ref/swift/Method/call(withArguments:this:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP4call13withArguments4this7EnvType_0bH0QZSayAIG_AISgtF">call(withArguments:<wbr>this:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Invokes this function with the specified arguments</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">call</span><span class="p">(</span><span class="n">withArguments</span> <span class="nv">arguments</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/JXVal.html#/s:5JXKit5JXValP7EnvTypeQa">EnvType</a></span><span class="o">.</span><span class="kt">JXValType</span><span class="p">],</span> <span class="nv">this</span><span class="p">:</span> <span class="kt"><a href="../Protocols/JXVal.html#/s:5JXKit5JXValP7EnvTypeQa">EnvType</a></span><span class="o">.</span><span class="kt">JXValType</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/JXVal.html#/s:5JXKit5JXValP7EnvTypeQa">EnvType</a></span><span class="o">.</span><span class="kt">JXValType</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP6isDateSbvp"></a>
+                      <a name="//apple_ref/swift/Property/isDate" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP6isDateSbvp">isDate</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>If this is a date type, returns the Date value</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isDate</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP9dateValue10Foundation4DateVSgvp"></a>
+                      <a name="//apple_ref/swift/Property/dateValue" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP9dateValue10Foundation4DateVSgvp">dateValue</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Undocumented</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">dateValue</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP5arraySay7EnvType_0bE0QZGSgvp"></a>
+                      <a name="//apple_ref/swift/Property/array" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP5arraySay7EnvType_0bE0QZGSgvp">array</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Returns the JavaScript array.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">array</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/JXVal.html#/s:5JXKit5JXValP7EnvTypeQa">EnvType</a></span><span class="o">.</span><span class="kt">JXValType</span><span class="p">]?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValP10dictionarySDySS7EnvType_0bE0QZGSgvp"></a>
+                      <a name="//apple_ref/swift/Property/dictionary" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValP10dictionarySDySS7EnvType_0bE0QZGSgvp">dictionary</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Returns the JavaScript object as dictionary.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">dictionary</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/JXVal.html#/s:5JXKit5JXValP7EnvTypeQa">EnvType</a></span><span class="o">.</span><span class="kt">JXValType</span><span class="p">]?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXValPy7EnvType_0bD0QZSScip"></a>
+                      <a name="//apple_ref/swift/Method/subscript(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXValPy7EnvType_0bD0QZSScip">subscript(_:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Accesses the value for the given property if this is an object type</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="nf">subscript</span><span class="p">(</span><span class="nv">property</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/JXVal.html#/s:5JXKit5JXValP7EnvTypeQa">EnvType</a></span><span class="o">.</span><span class="kt">JXValType</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </article>
+      </div>
+      <div class="nav-wrapper">
+        <nav class="nav-bottom">
+          <ul class="nav-groups">
+            <li class="nav-group-name">
+              <a href="../Classes.html">Classes</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Classes/JXContext.html">JXContext</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXContext/Errors.html">– Errors</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXContextGroup.html">JXContextGroup</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXValue.html">JXValue</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXValueDecoder.html">JXValueDecoder</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Classes/JXValueEncoder.html">JXValueEncoder</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Extensions.html">Extensions</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Extensions/JSContext.html">JSContext</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Extensions/JSValue.html">JSValue</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Extensions/JSVirtualMachine.html">JSVirtualMachine</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Extensions/String.html">String</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Protocols.html">Protocols</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Protocols/JSCEnv.html">JSCEnv</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Protocols/JXEnv.html">JXEnv</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Protocols/JXVM.html">JXVM</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Protocols/JXVal.html">JXVal</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Structs.html">Structures</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Structs/JXProp.html">JXProp</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Typealiases.html">Type Aliases</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Typealiases.html#/s:5JXKit30JXObjectCallAsFunctionCallbacka">JXObjectCallAsFunctionCallback</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-wrapper">
+        <section id="footer">
+          <p><a class="link" href="http://www.jective.org" target="_blank" rel="external">www.jective.org</a></p>
+          
+        </section>
+      </div>
+    </div>
+  </body>
+</div>
+</html>

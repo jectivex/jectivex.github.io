@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p>
+          <a href="index.html"> Docs</a>
+          <span class="no-mobile"> (84% documented)</span>
+        </p>
+    
+        <p class="header-right">
+          <a href="https://github.com/jectivex/JXKit">
+            <img src="img/gh.png"/>
+            <span class="no-mobile">View on GitHub</span>
+          </a>
+        </p>
+    
+      </div>
+    </header>
+    <div id="breadcrumbs-container">
+      <div class="content-wrapper">
+        <p id="breadcrumbs">
+          <span class="no-mobile">
+            <a href="index.html"> Reference</a>
+            <img id="carat" src="img/carat.png" />
+          </span>
+            Reference
+        </p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="article-wrapper">
+        <article class="main-content">
+          <section>
+            <section class="section">
+              
+              <h1 id='jxkit' class='heading'>JXKit</h1>
+
+<p><a href="https://github.com/jectivex/JXKit/actions"><img src="https://github.com/jectivex/JXKit/workflows/JXKit%20CI/badge.svg?branch=main" alt="Build Status"></a>
+<a href="https://github.com/apple/swift-package-manager"><img src="https://img.shields.io/badge/SPM-compatible-brightgreen.svg" alt="Swift Package Manager compatible"></a>
+<a href="https://github.com/jectivex/JXKit"><img src="https://img.shields.io/badge/Platforms-macOS%20%7C%20iOS%20%7C%20tvOS%20%7C%20Linux-lightgrey.svg" alt="Platform"></a>
+<a href="https://github.com/jectivex/JXKit"><img src="https://tokei.rs/b1/github/jectivex/JXKit" alt=""></a></p>
+
+<p>A pure swift interface the <code>JavaScriptCore</code> C API with support for <code>Encodable</code> &amp; <code>Decodable</code>.</p>
+
+<p>This permits JSC to be used on platforms where the Objective-C runtime is unavailable (e.g., Linux).</p>
+<h2 id='api' class='heading'>API</h2>
+<h3 id='direct-function-invocation' class='heading'>Direct function invocation</h3>
+
+<p>Functions can be accessed (and cached) to be invoked directly with codable arguments:</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">ctx</span> <span class="o">=</span> <span class="kt">JXContext</span><span class="p">()</span>
+<span class="k">let</span> <span class="nv">hypot</span> <span class="o">=</span> <span class="n">ctx</span><span class="p">[</span><span class="s">"Math"</span><span class="p">][</span><span class="s">"hypot"</span><span class="p">]</span>
+<span class="nf">assert</span><span class="p">(</span><span class="n">hypot</span><span class="o">.</span><span class="n">isFunction</span> <span class="o">==</span> <span class="kc">true</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">result</span> <span class="o">=</span> <span class="n">hypot</span><span class="o">.</span><span class="nf">call</span><span class="p">(</span><span class="nv">withArguments</span><span class="p">:</span> <span class="k">try</span> <span class="p">[</span><span class="n">ctx</span><span class="o">.</span><span class="nf">encode</span><span class="p">(</span><span class="mi">3</span><span class="p">),</span> <span class="n">ctx</span><span class="o">.</span><span class="nf">encode</span><span class="p">(</span><span class="mi">4</span><span class="p">)])</span>
+<span class="nf">assert</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">numberValue</span> <span class="o">==</span> <span class="mi">5</span><span class="p">)</span>
+</code></pre>
+<h3 id='codable-passing' class='heading'>Codable passing</h3>
+
+<p>JXKit supports encoding and decoding Swift types directly into the <code><a href="Classes/JXValue.html">JXValue</a></code> instances, which enables <code>Codable</code>  instances to be passed back and forth to the virtual machine with minimal overhead. Since encoding &amp; decoding doesn&rsquo;t use JSON <code>stringify</code> &amp; <code>parse</code>, this can lead to considerable performance improvements when interfacing between Swift &amp; JS.</p>
+
+<p>The above invocation of <code>Math.hypot</code> can instead be performed by wrapping the arguments in an <code>Encodable</code> struct, and returning a <code>Decodable</code> value. </p>
+<pre class="highlight swift"><code><span class="c1">/// An example of invoking `Math.hypot` in a wrapper function that takes an encodable argument and returns a Decodable retult.</span>
+<span class="kd">struct</span> <span class="kt">AB</span> <span class="p">:</span> <span class="kt">Encodable</span> <span class="p">{</span> <span class="k">let</span> <span class="nv">a</span><span class="p">,</span> <span class="nv">b</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">}</span>
+<span class="kd">struct</span> <span class="kt">C</span> <span class="p">:</span> <span class="kt">Decodable</span> <span class="p">{</span> <span class="k">let</span> <span class="nv">c</span><span class="p">:</span> <span class="kt">Double</span> <span class="p">}</span>
+
+<span class="k">let</span> <span class="nv">ctx</span> <span class="o">=</span> <span class="kt">JXContext</span><span class="p">()</span>
+
+<span class="k">let</span> <span class="nv">hypot</span> <span class="o">=</span> <span class="k">try</span> <span class="n">ctx</span><span class="o">.</span><span class="nf">eval</span><span class="p">(</span><span class="nv">script</span><span class="p">:</span> <span class="s">"(function(args) { return { c: Math.hypot(args.a, args.b) }; })"</span><span class="p">)</span>
+<span class="nf">assert</span><span class="p">(</span><span class="n">hypot</span><span class="o">.</span><span class="n">isFunction</span> <span class="o">==</span> <span class="kc">true</span><span class="p">)</span>
+
+<span class="k">let</span> <span class="nv">result</span><span class="p">:</span> <span class="kt">C</span> <span class="o">=</span> <span class="k">try</span> <span class="n">hypot</span><span class="o">.</span><span class="nf">call</span><span class="p">(</span><span class="nv">withArguments</span><span class="p">:</span> <span class="p">[</span><span class="n">ctx</span><span class="o">.</span><span class="nf">encode</span><span class="p">(</span><span class="kt">AB</span><span class="p">(</span><span class="nv">a</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="nv">b</span><span class="p">:</span> <span class="mi">4</span><span class="p">))])</span><span class="o">.</span><span class="nf">toDecodable</span><span class="p">(</span><span class="nv">ofType</span><span class="p">:</span> <span class="kt">C</span><span class="o">.</span><span class="k">self</span><span class="p">)</span>
+<span class="nf">assert</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">c</span> <span class="o">==</span> <span class="mi">5</span><span class="p">)</span>
+</code></pre>
+<h3 id='javascriptcore-compatibility' class='heading'>JavaScriptCore Compatibility</h3>
+
+<p>The JXKit API is a mostly drop-in replacement for the Objective-C <code>JavaScriptCore</code> framework available on most Apple devices. E.g., the following JavaScriptCore code:</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">JavaScriptCore</span>
+
+<span class="k">let</span> <span class="nv">ctx</span> <span class="o">=</span> <span class="kt">JSContext</span><span class="p">()</span>
+<span class="k">let</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">JXValue</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="nf">evaluateScript</span><span class="p">(</span><span class="s">"1+2"</span><span class="p">)</span>
+<span class="nf">assert</span><span class="p">(</span><span class="n">value</span><span class="o">.</span><span class="n">doubleValue</span> <span class="o">==</span> <span class="mi">3</span><span class="p">)</span>
+</code></pre>
+
+<p>becomes:</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">JXKit</span>
+
+<span class="k">let</span> <span class="nv">ctx</span> <span class="o">=</span> <span class="kt">JXContext</span><span class="p">()</span>
+<span class="k">let</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">JXValue</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="nf">evaluateScript</span><span class="p">(</span><span class="s">"1+2"</span><span class="p">)</span>
+<span class="nf">assert</span><span class="p">(</span><span class="n">value</span><span class="o">.</span><span class="n">doubleValue</span> <span class="o">==</span> <span class="mi">3</span><span class="p">)</span>
+</code></pre>
+<h2 id='installation' class='heading'>Installation</h2>
+
+<blockquote>
+<p><em>Note:</em> Requires Swift 5.3+</p>
+</blockquote>
+<h3 id='swift-package-manager' class='heading'>Swift Package Manager</h3>
+
+<p>The <a href="https://swift.org/package-manager">Swift Package Manager</a> is a tool for managing the distribution of
+Swift code.</p>
+
+<ol>
+<li>Add the following to your <code>Package.swift</code> file:</li>
+</ol>
+<pre class="highlight swift"><code>  <span class="c1">// swift-tools-version:5.3</span>
+  <span class="kd">import</span> <span class="kt">PackageDescription</span>
+
+  <span class="k">let</span> <span class="nv">package</span> <span class="o">=</span> <span class="kt">Package</span><span class="p">(</span>
+      <span class="nv">name</span><span class="p">:</span> <span class="s">"MyPackage"</span><span class="p">,</span>
+      <span class="nv">products</span><span class="p">:</span> <span class="p">[</span>
+          <span class="o">.</span><span class="nf">library</span><span class="p">(</span>
+              <span class="nv">name</span><span class="p">:</span> <span class="s">"MyPackage"</span><span class="p">,</span>
+              <span class="nv">targets</span><span class="p">:</span> <span class="p">[</span><span class="s">"MyPackage"</span><span class="p">]),</span>
+      <span class="p">],</span>
+      <span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
+          <span class="o">.</span><span class="nf">package</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="s">"JXKit"</span><span class="p">,</span> <span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/jectivex/JXKit.git"</span><span class="p">,</span> <span class="o">.</span><span class="nf">upToNextMajor</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="s">"1.0"</span><span class="p">)),</span>
+      <span class="p">],</span>
+      <span class="nv">targets</span><span class="p">:</span> <span class="p">[</span>
+          <span class="o">.</span><span class="nf">target</span><span class="p">(</span>
+              <span class="nv">name</span><span class="p">:</span> <span class="s">"MyPackage"</span><span class="p">,</span>
+              <span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span><span class="s">"JXKit"</span><span class="p">]),</span>
+              <span class="o">.</span><span class="nf">testTarget</span><span class="p">(</span>
+                  <span class="nv">name</span><span class="p">:</span> <span class="s">"MyPackageTests"</span><span class="p">,</span>
+                  <span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span><span class="s">"MyPackage"</span><span class="p">]),</span>
+          <span class="p">]</span>
+      <span class="p">)</span>
+</code></pre>
+
+<ol>
+<li>Build your project:</li>
+</ol>
+<pre class="highlight shell"><code>  <span class="nv">$ </span>swift build
+</code></pre>
+
+            </section>
+          </section>
+        </article>
+      </div>
+      <div class="nav-wrapper">
+        <nav class="nav-bottom">
+          <ul class="nav-groups">
+            <li class="nav-group-name">
+              <a href="Classes.html">Classes</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="Classes/JXContext.html">JXContext</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Classes/JXContext/Errors.html">– Errors</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Classes/JXContextGroup.html">JXContextGroup</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Classes/JXValue.html">JXValue</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Classes/JXValueDecoder.html">JXValueDecoder</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Classes/JXValueEncoder.html">JXValueEncoder</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="Extensions.html">Extensions</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="Extensions/JSContext.html">JSContext</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Extensions/JSValue.html">JSValue</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Extensions/JSVirtualMachine.html">JSVirtualMachine</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Extensions/String.html">String</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="Protocols.html">Protocols</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="Protocols/JSCEnv.html">JSCEnv</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Protocols/JXEnv.html">JXEnv</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Protocols/JXVM.html">JXVM</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="Protocols/JXVal.html">JXVal</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="Structs.html">Structures</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="Structs/JXProp.html">JXProp</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="Typealiases.html">Type Aliases</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="Typealiases.html#/s:5JXKit30JXObjectCallAsFunctionCallbacka">JXObjectCallAsFunctionCallback</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-wrapper">
+        <section id="footer">
+          <p><a class="link" href="http://www.jective.org" target="_blank" rel="external">www.jective.org</a></p>
+          
+        </section>
+      </div>
+    </div>
+  </body>
+</div>
+</html>
