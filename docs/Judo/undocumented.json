@@ -1,0 +1,54 @@
+{
+  "warnings": [
+    {
+      "file": "/opt/src/glimpse/GIO/Judo/Sources/Judo/Judo.swift",
+      "line": 6,
+      "symbol": "JudoErrors",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/Judo/Sources/Judo/Judo.swift",
+      "line": 43,
+      "symbol": "JXContext.ConsoleLogLevel.debug",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/Judo/Sources/Judo/Judo.swift",
+      "line": 43,
+      "symbol": "JXContext.ConsoleLogLevel.error",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/Judo/Sources/Judo/Judo.swift",
+      "line": 43,
+      "symbol": "JXContext.ConsoleLogLevel.info",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/Judo/Sources/Judo/Judo.swift",
+      "line": 43,
+      "symbol": "JXContext.ConsoleLogLevel.log",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/Judo/Sources/Judo/Judo.swift",
+      "line": 43,
+      "symbol": "JXContext.ConsoleLogLevel.warn",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/opt/src/glimpse/GIO/Judo/Sources/Judo/Judo.swift",
+      "line": 155,
+      "symbol": "JXContext.crushTimeouts()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/opt/src/github/jectivex/Judo"
+}

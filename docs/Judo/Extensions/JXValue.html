@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JXValue Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/JXValue" class="dashAnchor"></a>
+    <a title="JXValue Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p>
+          <a href="../index.html">Judo Docs</a>
+          <span class="no-mobile"> (70% documented)</span>
+        </p>
+    
+        <p class="header-right">
+          <a href="https://github.com/jectivex/Judo">
+            <img src="../img/gh.png"/>
+            <span class="no-mobile">View on GitHub</span>
+          </a>
+        </p>
+    
+      </div>
+    </header>
+    <div id="breadcrumbs-container">
+      <div class="content-wrapper">
+        <p id="breadcrumbs">
+          <span class="no-mobile">
+            <a href="../index.html">Judo Reference</a>
+            <img id="carat" src="../img/carat.png" />
+          </span>
+          JXValue Extension Reference
+        </p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="article-wrapper">
+        <article class="main-content">
+          <section>
+            <section class="section">
+              <h1>JXValue</h1>
+                <div class="declaration">
+                  <div class="language">
+                    
+                    <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">JXValue</span></code></pre>
+
+                  </div>
+                </div>
+              
+            </section>
+            <section class="section task-group-section">
+              <div class="task-group">
+                <ul>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC4JudoE11addFunction_4shim8callbackACSgSS_SbAcA9JXContextC_AHSayACGtKctKF"></a>
+                      <a name="//apple_ref/swift/Method/addFunction(_:shim:callback:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC4JudoE11addFunction_4shim8callbackACSgSS_SbAcA9JXContextC_AHSayACGtKctKF">addFunction(_:<wbr>shim:<wbr>callback:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Adds a function with the given name to this value, which should be an object type.</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="nf">addFunction</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">shim</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">JXFunction</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">JXValue</span><span class="p">?</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>name</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>the name of the function</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>shim</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>whether to insert a shim to make the function appear as a true JavaScript function (which permits <code>apply</code> to be invoked on it)</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>callback</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>the callback for the function</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit7JXValueC4JudoE6toBric6native0E4Brac0E0OSgSb_tKF"></a>
+                      <a name="//apple_ref/swift/Method/toBric(native:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit7JXValueC4JudoE6toBric6native0E4Brac0E0OSgSb_tKF">toBric(native:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Converts the instance to JSON and returns it as a <code>Bric</code> instance</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">@inlinable</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">toBric</span><span class="p">(</span><span class="nv">native</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Bric</span><span class="p">?</span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>native</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>whether to parse the string manually, which can be faster in some circumstances</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div>
+                          <h4>Return Value</h4>
+                          <p>the parsed Bric</p>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </article>
+      </div>
+      <div class="nav-wrapper">
+        <nav class="nav-bottom">
+          <ul class="nav-groups">
+            <li class="nav-group-name">
+              <a href="../Enums.html">Enumerations</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Enums/JudoErrors.html">JudoErrors</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-group-name">
+              <a href="../Extensions.html">Extensions</a>
+              <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Extensions/JXContext.html">JXContext</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Extensions/JXContext/ConsoleLogLevel.html">– ConsoleLogLevel</a>
+                </li>
+                <li class="nav-group-task">
+                  <a href="../Extensions/JXValue.html">JXValue</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-wrapper">
+        <section id="footer">
+          <p><a class="link" href="http://www.jective.org" target="_blank" rel="external">www.jective.org</a></p>
+          
+        </section>
+      </div>
+    </div>
+  </body>
+</div>
+</html>
