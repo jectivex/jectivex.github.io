@@ -251,6 +251,33 @@
                   <li class="item">
                     <div>
                       <code>
+                      <a name="/s:5JXKit5JXEnvP5arrayy9JXValTypeQzSayAFGF"></a>
+                      <a name="//apple_ref/swift/Method/array(_:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXEnvP5arrayy9JXValTypeQzSayAFGF">array(_:<wbr>)</a>
+                      </code>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Creates a new array in the environment</p>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">array</span><span class="p">(</span><span class="n">_</span> <span class="nv">values</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/JXEnv.html#/s:5JXKit5JXEnvP9JXValTypeQa">JXValType</a></span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/JXEnv.html#/s:5JXKit5JXEnvP9JXValTypeQa">JXValType</a></span></code></pre>
+
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <code>
                       <a name="/s:5JXKit5JXEnvP6object9JXValTypeQzyF"></a>
                       <a name="//apple_ref/swift/Method/object()" class="dashAnchor"></a>
                       <a class="token" href="#/s:5JXKit5JXEnvP6object9JXValTypeQzyF">object()</a>
@@ -542,80 +569,6 @@
                   <li class="item">
                     <div>
                       <code>
-                      <a name="/s:5JXKit5JXEnvPAAE13installModule5named2in9JXValTypeQzSS_So8NSBundleCtKF"></a>
-                      <a name="//apple_ref/swift/Method/installModule(named:in:)" class="dashAnchor"></a>
-                      <a class="token" href="#/s:5JXKit5JXEnvPAAE13installModule5named2in9JXValTypeQzSS_So8NSBundleCtKF">installModule(named:<wbr>in:<wbr>)</a>
-                      </code>
-                        <span class="declaration-note">
-                          Extension method
-                        </span>
-                    </div>
-                    <div class="height-container">
-                      <div class="pointer-container"></div>
-                      <section class="section">
-                        <div class="pointer"></div>
-                        <div class="abstract">
-                          <p>Runs a script in the standard bundle module location <code>&quot;Resources/JavaScript&quot;</code>.</p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    an error if the script could not be located or if an error occured when running
-
-</div>
-
-<p>Example:</p>
-<pre class="highlight swift"><code><span class="c1">/// Installs the `esprima` module used by `JavaScriptParser`.</span>
-<span class="c1">/// This will execute the bundle's `Resources/esprima.js` resource.</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">installJavaScriptParser</span><span class="p">()</span> <span class="k">throws</span> <span class="p">{</span>
-    <span class="k">try</span> <span class="nf">installModule</span><span class="p">(</span><span class="nv">named</span><span class="p">:</span> <span class="s">"esprima"</span><span class="p">,</span> <span class="nv">in</span><span class="p">:</span> <span class="o">.</span><span class="n">module</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre>
-
-                        </div>
-                        <div class="declaration">
-                          <h4>Declaration</h4>
-                          <div class="language">
-                            <p class="aside-title">Swift</p>
-                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">installModule</span><span class="p">(</span><span class="n">named</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="k">in</span> <span class="nv">bundle</span><span class="p">:</span> <span class="kt">Bundle</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/JXEnv.html#/s:5JXKit5JXEnvP9JXValTypeQa">JXValType</a></span></code></pre>
-
-                          </div>
-                        </div>
-                        <div>
-                          <h4>Parameters</h4>
-                          <table class="graybox">
-                            <tbody>
-                              <tr>
-                                <td>
-                                  <code>
-                                  <em>name</em>
-                                  </code>
-                                </td>
-                                <td>
-                                  <div>
-                                    <p>the name of the script to run (not including the &ldquo;.js&rdquo; extension)</p>
-                                  </div>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <code>
-                                  <em>bundle</em>
-                                  </code>
-                                </td>
-                                <td>
-                                  <div>
-                                    <p>the bundle from which the load the script (typically <code>Bundle.module</code> for a Swift package)</p>
-                                  </div>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </section>
-                    </div>
-                  </li>
-                  <li class="item">
-                    <div>
-                      <code>
                       <a name="/s:5JXKit5JXEnvPAAE4evaly9JXValTypeQzSSKF"></a>
                       <a name="//apple_ref/swift/Method/eval(_:)" class="dashAnchor"></a>
                       <a class="token" href="#/s:5JXKit5JXEnvPAAE4evaly9JXValTypeQzSSKF">eval(_:<wbr>)</a>
@@ -884,6 +837,80 @@
                       </section>
                     </div>
                   </li>
+                  <li class="item">
+                    <div>
+                      <code>
+                      <a name="/s:5JXKit5JXEnvPAAE13installModule5named2in4file9JXValTypeQzSS_So8NSBundleCyXKSStKF"></a>
+                      <a name="//apple_ref/swift/Method/installModule(named:in:file:)" class="dashAnchor"></a>
+                      <a class="token" href="#/s:5JXKit5JXEnvPAAE13installModule5named2in4file9JXValTypeQzSS_So8NSBundleCyXKSStKF">installModule(named:<wbr>in:<wbr>file:<wbr>)</a>
+                      </code>
+                        <span class="declaration-note">
+                          Extension method
+                        </span>
+                    </div>
+                    <div class="height-container">
+                      <div class="pointer-container"></div>
+                      <section class="section">
+                        <div class="pointer"></div>
+                        <div class="abstract">
+                          <p>Runs a script in the standard bundle module location <code>&quot;Resources/JavaScript&quot;</code>.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    an error if the script could not be located or if an error occured when running
+
+</div>
+
+<p>Example:</p>
+<pre class="highlight swift"><code><span class="c1">/// Installs the `esprima` module used by `JavaScriptParser`.</span>
+<span class="c1">/// This will execute the bundle's `Resources/esprima.js` resource.</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">installJavaScriptParser</span><span class="p">()</span> <span class="k">throws</span> <span class="p">{</span>
+    <span class="k">try</span> <span class="nf">installModule</span><span class="p">(</span><span class="nv">named</span><span class="p">:</span> <span class="s">"esprima"</span><span class="p">,</span> <span class="nv">in</span><span class="p">:</span> <span class="o">.</span><span class="n">module</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre>
+
+                        </div>
+                        <div class="declaration">
+                          <h4>Declaration</h4>
+                          <div class="language">
+                            <p class="aside-title">Swift</p>
+                            <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">installModule</span><span class="p">(</span><span class="n">named</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="k">in</span> <span class="nv">bundle</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bundle</span><span class="p">,</span> <span class="n">file</span> <span class="nv">sourceFilePathRelativeToResources</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="kd">#file</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/JXEnv.html#/s:5JXKit5JXEnvP9JXValTypeQa">JXValType</a></span></code></pre>
+
+                          </div>
+                        </div>
+                        <div>
+                          <h4>Parameters</h4>
+                          <table class="graybox">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>name</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>the name of the script to run (not including the &ldquo;.js&rdquo; extension)</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <code>
+                                  <em>bundle</em>
+                                  </code>
+                                </td>
+                                <td>
+                                  <div>
+                                    <p>the bundle from which the load the script (typically <code>Bundle.module</code> for a Swift package)</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </section>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </section>
@@ -919,6 +946,9 @@
             <li class="nav-group-name">
               <a href="../Extensions.html">Extensions</a>
               <ul class="nav-group-tasks">
+                <li class="nav-group-task">
+                  <a href="../Extensions/Bundle.html">Bundle</a>
+                </li>
                 <li class="nav-group-task">
                   <a href="../Extensions/JSContext.html">JSContext</a>
                 </li>
